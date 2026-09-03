@@ -1,0 +1,8 @@
+# Canonical benchmark XML must retain byte-for-byte identity for SHA-256 validation.
+*.xml -text
+
+# Keep source and documentation text normalized in the repository.
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
