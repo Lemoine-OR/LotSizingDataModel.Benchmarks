@@ -74,6 +74,8 @@ Each lot page reports periods, items, work centers, the strongest known objectiv
 | Interactive catalogue | **[Benchmark Explorer](https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/)** |
 | Best-known values, bounds and solution status | **[Known Results & Solutions](https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/portal/results.html)** |
 | Canonical XML instances | [`benchmarks/<FAMILY>/instances/`](benchmarks/) |
+| Verified DJ2000 solution files | [`benchmarks/DJ2000/Phase1/solutions/`](benchmarks/DJ2000/Phase1/solutions/) |
+| DJ2000 checker campaign | [`benchmarks/DJ2000/checker-reports/Phase1/`](benchmarks/DJ2000/checker-reports/Phase1/) |
 | Global registry | [`GLOBAL-BENCHMARK-REGISTRY-v1.0.0.csv`](catalog/global/GLOBAL-BENCHMARK-REGISTRY-v1.0.0.csv) |
 | Normalized trust catalogue | [`GLOBAL-NORMALIZED-TRUST-v1.0.0.csv`](catalog/global/GLOBAL-NORMALIZED-TRUST-v1.0.0.csv) |
 | Open evidence challenges | [`GLOBAL-OPEN-CHALLENGES-v1.0.0.csv`](catalog/global/GLOBAL-OPEN-CHALLENGES-v1.0.0.csv) |
@@ -114,7 +116,7 @@ No benchmark, parameter, objective value or solution is invented. Missing inform
 
 ## Scope of v1.0.0
 
-The public repository contains the 7,905 canonical XML instances, metadata, catalogues, schemas, validation reports and reproducibility tooling. Raw working archives, duplicated enriched copies, intermediate reports and build outputs are deliberately excluded.
+The public repository contains the 7,905 canonical XML instances, 96 verified DJ2000 solution XML files, their checker campaign summary, metadata, catalogues, schemas, validation reports and reproducibility tooling. Raw working archives, duplicated enriched copies, intermediate reports and build outputs are deliberately excluded.
 
 MULTILSB acquisition and normalization reached 120/120 source instances, but canonical admission remains deferred to v2.0 because shared production-family setup semantics require a separately reviewed extension to `LotSizingDataModel`. No model change is included in v1.0.0.
 

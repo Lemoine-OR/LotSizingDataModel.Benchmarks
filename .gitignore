@@ -8,6 +8,8 @@ Thumbs.db
 benchmarks/**/*.xml
 !benchmarks/**/instances/*.xml
 !benchmarks/**/instances/**/*.xml
+!benchmarks/**/solutions/*.solution.xml
+!benchmarks/**/solutions/**/*.solution.xml
 benchmarks/**/raw/*
 !benchmarks/**/raw/.gitkeep
 

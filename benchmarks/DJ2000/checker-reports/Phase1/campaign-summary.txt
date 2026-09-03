@@ -1,0 +1,134 @@
+Lot-sizing directory verification campaign
+============================================================
+Input directory  : D:\Dev\LotSizingDataModel.Benchmarks\benchmarks\DJ2000\Phase1\instances-with-reference
+Output directory : D:\Dev\LotSizingDataModel.Benchmarks\benchmarks\DJ2000\checker-reports\Phase1
+Campaign result  : VALID
+
+Input discovery
+---------------
+  Matching XML files           : 96
+  Loaded instances             : 96
+  Ignored non-instance XML     : 0
+  File load failures           : 0
+  Known results                : 96
+  Predicate filtered           : 0
+  Without detailed solution    : 0
+  Verification candidates      : 96
+
+Batch execution
+---------------
+  Completed candidates         : 96
+  Execution failures           : 0
+  Valid candidates             : 96
+  Invalid candidates           : 0
+
+Lot-sizing solution-check batch
+==================================================
+Candidates : 96
+Valid      : 96
+Invalid    : 0
+Errors     : 0
+Warnings   : 0
+Information: 0
+With constraint violations : 0
+With objective mismatch    : 0
+Maximum constraint violation: 0
+
+Candidates
+----------
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in01st1de1mh0ms0.xml::knownResult[000000]::solver-4fb74dc1-a084-4aa2-9471-5e55bbbfd8cc - ph1in01st1de1mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in02st2de1mh0ms0.xml::knownResult[000000]::solver-15529eb2-23e1-4ccb-81f1-94dd7b8e18e5 - ph1in02st2de1mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in03st3de1mh0ms0.xml::knownResult[000000]::solver-84a1d585-0345-49d9-aa2f-a6d389ba849b - ph1in03st3de1mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in04st4de1mh0ms0.xml::knownResult[000000]::solver-ffb21158-c7aa-4a9d-b79f-dd3a01c13349 - ph1in04st4de1mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in05st1de2mh0ms0.xml::knownResult[000000]::solver-451c4099-7550-44f3-892f-95d93e48267e - ph1in05st1de2mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in06st2de2mh0ms0.xml::knownResult[000000]::solver-32a599f3-23e4-46d3-ae48-27570a665948 - ph1in06st2de2mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in07st3de2mh0ms0.xml::knownResult[000000]::solver-a15bae03-0cfc-4c4b-8c37-efebcd93b04c - ph1in07st3de2mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in08st4de2mh0ms0.xml::knownResult[000000]::solver-e863773d-0649-4907-af5c-e1230675afd0 - ph1in08st4de2mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in09st1de3mh0ms0.xml::knownResult[000000]::solver-10efb393-bcf8-4226-ba62-6f3f9a6c5db6 - ph1in09st1de3mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in10st2de3mh0ms0.xml::knownResult[000000]::solver-b8a69b28-efd8-486b-9378-c4bfad1d7984 - ph1in10st2de3mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in11st3de3mh0ms0.xml::knownResult[000000]::solver-2e0b2d15-8353-456e-aa76-8f472e8b8c68 - ph1in11st3de3mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in12st4de3mh0ms0.xml::knownResult[000000]::solver-9496951f-ae10-44ab-a4be-1c7633c207d4 - ph1in12st4de3mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in13st1de4mh0ms0.xml::knownResult[000000]::solver-04b6d251-b845-4147-a294-ad22f996b10e - ph1in13st1de4mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in14st2de4mh0ms0.xml::knownResult[000000]::solver-7f39ab09-bf0a-4358-9c7f-678cd72126a6 - ph1in14st2de4mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in15st3de4mh0ms0.xml::knownResult[000000]::solver-409a7246-607b-46a7-9738-9b0d020bb2c4 - ph1in15st3de4mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in16st4de4mh0ms0.xml::knownResult[000000]::solver-6f8beb61-5604-48a9-99cb-33a86e63a93a - ph1in16st4de4mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in17st1de5mh0ms0.xml::knownResult[000000]::solver-db9e6ee6-45f6-40bc-b56f-8357ec23f7cd - ph1in17st1de5mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in18st2de5mh0ms0.xml::knownResult[000000]::solver-1069a217-08e5-4662-86f4-4aeda79dd034 - ph1in18st2de5mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in19st3de5mh0ms0.xml::knownResult[000000]::solver-858cce02-55b1-4ec4-b0c2-5a2c90325ae4 - ph1in19st3de5mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in20st4de5mh0ms0.xml::knownResult[000000]::solver-2a236747-5988-46eb-bc51-9d661c37107f - ph1in20st4de5mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in21st1de6mh0ms0.xml::knownResult[000000]::solver-5b37952f-0886-4c84-8f83-6231e78a53a6 - ph1in21st1de6mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in22st2de6mh0ms0.xml::knownResult[000000]::solver-77858620-4ed3-4c54-b62b-91d031e99ecf - ph1in22st2de6mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in23st3de6mh0ms0.xml::knownResult[000000]::solver-5f429016-a0da-4e52-a2a7-0c70e57ddb85 - ph1in23st3de6mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in24st4de6mh0ms0.xml::knownResult[000000]::solver-b524102c-0330-41bb-bb43-942b9da9b816 - ph1in24st4de6mh0ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in25st1de1mh1ms0.xml::knownResult[000000]::solver-c74eda3d-b2c7-4e8c-9c20-c725f712baee - ph1in25st1de1mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in26st2de1mh1ms0.xml::knownResult[000000]::solver-ba9866b5-b167-4630-964f-6e0b794c0ef2 - ph1in26st2de1mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in27st3de1mh1ms0.xml::knownResult[000000]::solver-cdbd5251-3f01-4a4e-a929-1bd4f0f74b56 - ph1in27st3de1mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in28st4de1mh1ms0.xml::knownResult[000000]::solver-97aeb916-c723-4571-9528-3c6cdb2a9fea - ph1in28st4de1mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in29st1de2mh1ms0.xml::knownResult[000000]::solver-1562e07f-c8c7-4663-ad88-34ea3cef8dfe - ph1in29st1de2mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in30st2de2mh1ms0.xml::knownResult[000000]::solver-429e3c48-7db7-48af-85d7-e38ad7c7b022 - ph1in30st2de2mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in31st3de2mh1ms0.xml::knownResult[000000]::solver-b946a882-7c01-4ec1-a140-b39d9c15f592 - ph1in31st3de2mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in32st4de2mh1ms0.xml::knownResult[000000]::solver-9eeb220e-48c3-4cee-9ca7-d84f5d4276db - ph1in32st4de2mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in33st1de3mh1ms0.xml::knownResult[000000]::solver-4d6b9d09-0c84-44fd-8579-38a346393b00 - ph1in33st1de3mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in34st2de3mh1ms0.xml::knownResult[000000]::solver-63f138b7-73ec-4474-b2ff-ed7d2cb66f24 - ph1in34st2de3mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in35st3de3mh1ms0.xml::knownResult[000000]::solver-8a4021e1-2180-4e14-9f01-383a927ee88d - ph1in35st3de3mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in36st4de3mh1ms0.xml::knownResult[000000]::solver-0e7d56d4-538f-4bd4-9c35-4d82e44ab4c9 - ph1in36st4de3mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in37st1de4mh1ms0.xml::knownResult[000000]::solver-61bc6398-5743-4107-939f-a2898c3779d3 - ph1in37st1de4mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in38st2de4mh1ms0.xml::knownResult[000000]::solver-15429779-d518-4cc6-b9ae-940e26f8eaed - ph1in38st2de4mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in39st3de4mh1ms0.xml::knownResult[000000]::solver-f07ce53f-88b8-4123-ae07-25034f5ea16f - ph1in39st3de4mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in40st4de4mh1ms0.xml::knownResult[000000]::solver-b477bba6-9df9-40ad-9bb6-08ef78cf71d1 - ph1in40st4de4mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in41st1de5mh1ms0.xml::knownResult[000000]::solver-f79f10f7-eb87-477a-b763-4d270d7dd271 - ph1in41st1de5mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in42st2de5mh1ms0.xml::knownResult[000000]::solver-038db140-15d6-4d8e-9c5b-9a051903c319 - ph1in42st2de5mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in43st3de5mh1ms0.xml::knownResult[000000]::solver-eff024c4-0755-4274-821d-14a3f911abd9 - ph1in43st3de5mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in44st4de5mh1ms0.xml::knownResult[000000]::solver-a6249c72-ca80-43c4-9c12-c1841ec97cea - ph1in44st4de5mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in45st1de6mh1ms0.xml::knownResult[000000]::solver-2e8be397-d057-4cbd-b82d-b43c5443f53d - ph1in45st1de6mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in46st2de6mh1ms0.xml::knownResult[000000]::solver-40e67dd5-cfbf-4049-9681-2f6f22eb13cf - ph1in46st2de6mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in47st3de6mh1ms0.xml::knownResult[000000]::solver-fb19cadf-ae5f-4a9d-87d1-9b4cdb6bb721 - ph1in47st3de6mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in48st4de6mh1ms0.xml::knownResult[000000]::solver-888f30b8-6152-49d7-b695-d3bfea347296 - ph1in48st4de6mh1ms0 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in49st1de1mh0ms1.xml::knownResult[000000]::solver-b4cfd9d6-f798-4225-976c-15723b9cf839 - ph1in49st1de1mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in50st2de1mh0ms1.xml::knownResult[000000]::solver-fe9d3b64-21a2-48cf-bf40-2e5488609241 - ph1in50st2de1mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in51st3de1mh0ms1.xml::knownResult[000000]::solver-2ded0907-057f-4726-9d13-094b9d6188b1 - ph1in51st3de1mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in52st4de1mh0ms1.xml::knownResult[000000]::solver-bc4adb79-f602-4ed6-b3f3-02dd65181615 - ph1in52st4de1mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in53st1de2mh0ms1.xml::knownResult[000000]::solver-05050838-005e-4c8d-a9d3-495ed374a10b - ph1in53st1de2mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in54st2de2mh0ms1.xml::knownResult[000000]::solver-90daa0c8-09fe-4f77-bfd5-e3d310b30b1a - ph1in54st2de2mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in55st3de2mh0ms1.xml::knownResult[000000]::solver-39cf470b-872d-4350-96b3-5cb0d0fb04e8 - ph1in55st3de2mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in56st4de2mh0ms1.xml::knownResult[000000]::solver-71eb3815-1364-4a30-b643-da8df7cd64a2 - ph1in56st4de2mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in57st1de3mh0ms1.xml::knownResult[000000]::solver-40e83efd-d889-44e5-81b1-bbc1719320b8 - ph1in57st1de3mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in58st2de3mh0ms1.xml::knownResult[000000]::solver-6b00ebf6-8a5d-4f89-96c6-691b3f39a975 - ph1in58st2de3mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in59st3de3mh0ms1.xml::knownResult[000000]::solver-5ae64e1c-b993-4840-9a59-56656e6793f8 - ph1in59st3de3mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in60st4de3mh0ms1.xml::knownResult[000000]::solver-a979b40d-602d-493b-8754-40ebf20a2040 - ph1in60st4de3mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in61st1de4mh0ms1.xml::knownResult[000000]::solver-7732f313-4cd6-466b-af12-d47f3ba14e51 - ph1in61st1de4mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in62st2de4mh0ms1.xml::knownResult[000000]::solver-724bf682-9b22-4c77-89b3-b482623079fe - ph1in62st2de4mh0ms1 / COIN-OR CBC solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in63st3de4mh0ms1.xml::knownResult[000000]::solver-f7a06af7-f3ef-4d1b-804f-4f9e9c44c0fe - ph1in63st3de4mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in64st4de4mh0ms1.xml::knownResult[000000]::solver-fb3d0cc6-1c70-4755-a909-8fe93ada58da - ph1in64st4de4mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in65st1de5mh0ms1.xml::knownResult[000000]::solver-f8444ed1-8732-4db4-812e-ef9a3c18f74e - ph1in65st1de5mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in66st2de5mh0ms1.xml::knownResult[000000]::solver-c67186f7-38c2-4fc5-a239-4bb6366f3982 - ph1in66st2de5mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in67st3de5mh0ms1.xml::knownResult[000000]::solver-303a7c9a-f239-4c1b-9cf9-0e22dc41c281 - ph1in67st3de5mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in68st4de5mh0ms1.xml::knownResult[000000]::solver-3fdfb3aa-fe56-4ccc-a694-b5a0083511dd - ph1in68st4de5mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in69st1de6mh0ms1.xml::knownResult[000000]::solver-562d922a-387f-4a69-9cae-c69979588eb5 - ph1in69st1de6mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in70st2de6mh0ms1.xml::knownResult[000000]::solver-89b8c121-bcca-46bb-90c3-fc9db5a13d28 - ph1in70st2de6mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in71st3de6mh0ms1.xml::knownResult[000000]::solver-f25d3a6b-6c83-4808-8186-e09cca8b3565 - ph1in71st3de6mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in72st4de6mh0ms1.xml::knownResult[000000]::solver-0bb519f0-7eed-4ea1-8e6d-570d9f7fd2e6 - ph1in72st4de6mh0ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in73st1de1mh1ms1.xml::knownResult[000000]::solver-b45bec98-a37c-4408-96e4-1ab64b559df5 - ph1in73st1de1mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in74st2de1mh1ms1.xml::knownResult[000000]::solver-5839fd16-46fe-49d4-ab85-6f1f3ec1637e - ph1in74st2de1mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in75st3de1mh1ms1.xml::knownResult[000000]::solver-895fe5cf-bb6b-418b-bc16-3cd0f2da3d4d - ph1in75st3de1mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in76st4de1mh1ms1.xml::knownResult[000000]::solver-029f1e7a-3cf2-4eb1-ae77-5ab091fdca6c - ph1in76st4de1mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in77st1de2mh1ms1.xml::knownResult[000000]::solver-40bbbbb0-4192-4612-8331-1afb4ee9412b - ph1in77st1de2mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in78st2de2mh1ms1.xml::knownResult[000000]::solver-e2d2a17b-0612-410f-8a0a-9bb378afdd3d - ph1in78st2de2mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in79st3de2mh1ms1.xml::knownResult[000000]::solver-cff57e60-547c-4c33-9104-a1928c722890 - ph1in79st3de2mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in80st4de2mh1ms1.xml::knownResult[000000]::solver-1b94f52d-2362-487b-b684-f5091f787778 - ph1in80st4de2mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in81st1de3mh1ms1.xml::knownResult[000000]::solver-aef73d32-9ce4-4633-8e91-56cd5dbbad3d - ph1in81st1de3mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in82st2de3mh1ms1.xml::knownResult[000000]::solver-48fc5d72-6be7-425d-b12e-0ae9b269a260 - ph1in82st2de3mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in83st3de3mh1ms1.xml::knownResult[000000]::solver-67bd9a01-4752-42fe-badc-2a6572fda2c9 - ph1in83st3de3mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in84st4de3mh1ms1.xml::knownResult[000000]::solver-581e0cc8-2644-4057-965e-82223ce670ff - ph1in84st4de3mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in85st1de4mh1ms1.xml::knownResult[000000]::solver-35d1110a-fd82-438e-8458-2e200bb3be25 - ph1in85st1de4mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in86st2de4mh1ms1.xml::knownResult[000000]::solver-6f08faa2-b558-4d7c-a491-0c4dbda8d2c3 - ph1in86st2de4mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in87st3de4mh1ms1.xml::knownResult[000000]::solver-2733c4a4-449d-4d8c-98c4-21b1a39ad55c - ph1in87st3de4mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in88st4de4mh1ms1.xml::knownResult[000000]::solver-d7139087-dc14-43aa-82a2-f00648447f18 - ph1in88st4de4mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in89st1de5mh1ms1.xml::knownResult[000000]::solver-d341c203-4064-46b1-8af7-fecb01b32295 - ph1in89st1de5mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in90st2de5mh1ms1.xml::knownResult[000000]::solver-1029d72e-2a47-419c-b8bf-f5293decfcda - ph1in90st2de5mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in91st3de5mh1ms1.xml::knownResult[000000]::solver-dc7afd49-4e7f-4b53-9f1a-f296169794ba - ph1in91st3de5mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in92st4de5mh1ms1.xml::knownResult[000000]::solver-872a0909-926b-4f04-939f-f976958c8b0b - ph1in92st4de5mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in93st1de6mh1ms1.xml::knownResult[000000]::solver-da0699e5-ff8a-4bcb-9878-b234c1427026 - ph1in93st1de6mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in94st2de6mh1ms1.xml::knownResult[000000]::solver-27907999-1dc0-4a62-8434-df27454be087 - ph1in94st2de6mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in95st3de6mh1ms1.xml::knownResult[000000]::solver-f281e144-0c48-44de-a226-412045bc592b - ph1in95st3de6mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
+  PASS  LSDM_DJ2000_MLLP_12_unknown_ph1in96st4de6mh1ms1.xml::knownResult[000000]::solver-a73fb104-b789-4065-866c-21bc280c6f72 - ph1in96st4de6mh1ms1 / IBM ILOG CPLEX solution  errors=0 warnings=0
