@@ -1,0 +1,7 @@
+.hero-actions{margin-top:28px}
+.primary-action{display:inline-block;padding:13px 19px;border-radius:11px;background:var(--cyan);color:var(--navy);font-weight:800;box-shadow:0 8px 24px rgba(38,198,218,.2)}
+.primary-action:hover{background:#5fe0dc}
+.evidence-strip{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px;color:var(--blue);font-size:12px;font-weight:750}
+.filter-bar{display:flex;flex-wrap:wrap;gap:8px;margin:-8px 0 18px}
+.filter-bar button{border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--muted);padding:8px 13px;font:inherit;font-size:12px;font-weight:750;cursor:pointer}
+.filter-bar button.active,.filter-bar button:hover{border-color:var(--blue);background:#eaf4ff;color:var(--navy)}

@@ -4,6 +4,7 @@
   <br>
 
   <a href="https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/"><img src="https://img.shields.io/badge/OPEN_THE_BENCHMARK_EXPLORER-26C6DA?style=for-the-badge&logo=github&logoColor=071D43" alt="Open the benchmark explorer"></a>
+  <a href="https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/portal/results.html"><img src="https://img.shields.io/badge/KNOWN_RESULTS_%26_SOLUTIONS-13795B?style=for-the-badge" alt="Known results and solutions"></a>
   <a href="https://github.com/Lemoine-OR/LotSizingDataModel.Benchmarks/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/RELEASE-v1.0.0-2E74B5?style=for-the-badge&logo=github" alt="Release v1.0.0"></a>
 
   <br><br>
@@ -71,6 +72,7 @@ Each lot page reports periods, items, work centers, the strongest known objectiv
 | I need… | Go to |
 |---|---|
 | Interactive catalogue | **[Benchmark Explorer](https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/)** |
+| Best-known values, bounds and solution status | **[Known Results & Solutions](https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/portal/results.html)** |
 | Canonical XML instances | [`benchmarks/<FAMILY>/instances/`](benchmarks/) |
 | Global registry | [`GLOBAL-BENCHMARK-REGISTRY-v1.0.0.csv`](catalog/global/GLOBAL-BENCHMARK-REGISTRY-v1.0.0.csv) |
 | Normalized trust catalogue | [`GLOBAL-NORMALIZED-TRUST-v1.0.0.csv`](catalog/global/GLOBAL-NORMALIZED-TRUST-v1.0.0.csv) |
