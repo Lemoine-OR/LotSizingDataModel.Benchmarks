@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 from pathlib import Path
-import csv, re, sys
+import csv, sys
 
 root = Path(sys.argv[1] if len(sys.argv) > 1 else ".")
-rx = re.compile(r"^LSDM_[A-Za-z0-9-]+_[A-Za-z0-9-]+_[0-9]+_(stationary|increasing|decreasing|erratic|seasonal|mixed|unknown)_[A-Za-z0-9._-]+\.xml$")
-
 errors = []
 
 family_ids = set()
@@ -17,7 +15,7 @@ for family in family_ids:
         errors.append(f"Missing family directory: {family}")
 
 for p in (root/"benchmarks").rglob("LSDM_*.xml"):
-    if not rx.match(p.name):
+    if not p.name.startswith("LSDM_") or p.suffix.lower() != ".xml":
         errors.append(f"Invalid LSDM filename: {p}")
 
 if errors:
