@@ -1,0 +1,6 @@
+﻿"family_id","asset_id","url","local_path","downloaded","sha256"
+"STADTLER2003","mlclsp-complete","https://www.suerie.de/testsets/hst/ti_mlclsp.zip","D:\Dev\LotSizingDataModel.Benchmarks\benchmarks\STADTLER2003\raw\upstream\mlclsp-complete.zip","True","452A9A4351315C59B262DF792786A32FF60CAA23761D3F9886BD51E5D5648D32"
+"STADTLER2003","format-description","https://www.suerie.de/testsets/hst/TI_Description.pdf","D:\Dev\LotSizingDataModel.Benchmarks\benchmarks\STADTLER2003\raw\upstream\format-description.pdf","True","794E2AB5F9DF087CCD474FCAAC8CE586A973495E47592C7D55F7694E34969970"
+"SUERIE_CLSPL","clspl-complete","https://www.suerie.de/testsets/clspl/testdata.tar.bz2","D:\Dev\LotSizingDataModel.Benchmarks\benchmarks\SUERIE_CLSPL\raw\upstream\clspl-complete.tar.bz2","True","E9049CEFA99C9D187DFB26CAD659CCC0CB2DC221B82B8EAA75FDB22C8B4DDE2D"
+"TB2009","mlclspl-historical","http://www.scmp.uni-koeln.de/publikationen/ORS2008MLCLSPL.zip","D:\Dev\LotSizingDataModel.Benchmarks\benchmarks\TB2009\raw\upstream\mlclspl-historical.zip","False",""
+"TB2009","paper","https://diskussionspapiere.wiwi.uni-hannover.de/pdf_bib/dp-400.pdf","D:\Dev\LotSizingDataModel.Benchmarks\benchmarks\TB2009\raw\upstream\paper.pdf","True","1B15DDF90B63BEAF8FC099B796E016782F3903707E759F127012A50E26198813"

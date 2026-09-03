@@ -1,0 +1,5 @@
+parent_family,child_family,relation,evidence,notes
+TTM1989,SUERIE_CLSPL,converted/reused,to verify instance-by-instance,Never inherit BKV without exact mapping
+TD1996,STADTLER2003,extended/reclassified,literature lineage,Track A/B/C/D and + variants explicitly
+DJ2000,,reused by later MLLP literature,Pitakaso/Homberger/Xiao lines,Create child records when exact derivatives are confirmed
+MULTILSB,MIPLIB_LOTSIZE,selected instances reused,MIPLIB provenance,Prefer current MIPLIB BKS where exact identity is proven

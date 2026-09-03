@@ -1,0 +1,15 @@
+{
+  "familyId": "WILLEMS",
+  "name": "WILLEMS",
+  "authorsOrOrigin": "Willems",
+  "year": "2008",
+  "problemType": "SupplyChain",
+  "description": "Real-world supply-chain structures reusable in lot-sizing",
+  "status": "acquisition-target",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

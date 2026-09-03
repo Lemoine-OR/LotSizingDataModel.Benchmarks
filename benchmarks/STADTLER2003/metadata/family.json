@@ -1,0 +1,19 @@
+{
+  "familyId": "STADTLER2003",
+  "name": "Stadtler 2003 MLCLSP test sets",
+  "problemType": "MLCLSP",
+  "status": "public-source-confirmed",
+  "paper": "H. Stadtler (2003), Operations Research 51(3), 487-502",
+  "source": "https://www.suerie.de/testsets/hst/ti_mlclsp.zip",
+  "description": "Public complete test set including objective values and lower bounds.",
+  "sets": [
+    "A+",
+    "B+",
+    "C",
+    "C+",
+    "D",
+    "D+",
+    "E",
+    "E+"
+  ]
+}

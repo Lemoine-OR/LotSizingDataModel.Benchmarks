@@ -1,0 +1,14 @@
+{
+  "familyId": "SUERIE_CLSPL",
+  "name": "Suerie-Stadtler 2003 CLSPL test sets",
+  "problemType": "CLSPL",
+  "status": "public-source-confirmed",
+  "paper": "C. Suerie and H. Stadtler (2003), Management Science 49(8), 1039-1054",
+  "source": "https://www.suerie.de/testsets/clspl/testdata.tar.bz2",
+  "description": "Three public data sets with best known objective values and lower bounds.",
+  "sets": [
+    "data",
+    "datam",
+    "datab"
+  ]
+}

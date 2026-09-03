@@ -1,0 +1,15 @@
+{
+  "familyId": "DS1981",
+  "name": "DS1981",
+  "authorsOrOrigin": "Dixon & Silver",
+  "year": "1981",
+  "problemType": "CLSP",
+  "description": "Multi-item capacitated lot sizing heuristic family",
+  "status": "bibliographic",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

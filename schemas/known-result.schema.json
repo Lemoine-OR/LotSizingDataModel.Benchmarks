@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KnownResultRecord",
+  "type": "object",
+  "required": [
+    "resultId",
+    "instanceId",
+    "status",
+    "solutionAvailable",
+    "solutionVerified"
+  ],
+  "properties": {
+    "resultId": {
+      "type": "string"
+    },
+    "instanceId": {
+      "type": "string"
+    },
+    "objectiveValue": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "lowerBound": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "upperBound": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "PROVEN_OPTIMAL",
+        "AUTHOR_BEST_KNOWN",
+        "LITERATURE_BEST_KNOWN",
+        "CURRENT_SOLVER_BEST",
+        "FEASIBLE_SOLUTION",
+        "LOWER_BOUND_ONLY",
+        "UNKNOWN"
+      ]
+    },
+    "solutionAvailable": {
+      "type": "boolean"
+    },
+    "solutionVerified": {
+      "type": "boolean"
+    },
+    "reference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "year": {
+      "type": [
+        "integer",
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

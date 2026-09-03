@@ -1,0 +1,15 @@
+{
+  "familyId": "SEANNER",
+  "name": "SEANNER",
+  "authorsOrOrigin": "Seeanner",
+  "year": "2013",
+  "problemType": "GLSPMS",
+  "description": "Multi-stage simultaneous lot sizing and scheduling",
+  "status": "acquisition-target",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

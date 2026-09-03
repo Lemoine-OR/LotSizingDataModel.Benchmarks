@@ -1,0 +1,26 @@
+[
+  {
+    "source_id": "XIAO2011_COMPARATIVE",
+    "year": 2011,
+    "status": "HISTORICAL_DETAILED_REFERENCE",
+    "note": "Detailed medium and large per-instance tables."
+  },
+  {
+    "source_id": "XIAO2014_VNS_ADTS",
+    "year": 2014,
+    "status": "NEWER_BKS_AUTHORITY",
+    "note": "Reports new BKS for 5/40 medium and 30/40 large; all 96 small optima found."
+  },
+  {
+    "source_id": "PITAKASO2007_MMAS",
+    "year": 2007,
+    "status": "HISTORICAL_REFERENCE",
+    "note": "Same benchmark lineage."
+  },
+  {
+    "source_id": "HOMBERGER2008_2010",
+    "year": "2008-2010",
+    "status": "HISTORICAL_REFERENCE",
+    "note": "Same benchmark lineage."
+  }
+]

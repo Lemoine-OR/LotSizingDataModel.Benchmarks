@@ -1,0 +1,15 @@
+{
+  "familyId": "DJ2000",
+  "canonicalInstanceId": "ph3in01",
+  "declaredObjective": 595000,
+  "sourceType": "COMPLETE_SOLUTION",
+  "solutionFile": "candidate.xml",
+  "lowerBound": null,
+  "provenOptimal": false,
+  "solver": "example",
+  "method": "example",
+  "author": "example",
+  "reference": null,
+  "date": "2026-09-01",
+  "notes": "Template only; not a benchmark result."
+}

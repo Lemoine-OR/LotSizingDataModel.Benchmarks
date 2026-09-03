@@ -1,0 +1,15 @@
+{
+  "familyId": "MIPLIB_LOTSIZE",
+  "name": "MIPLIB_LOTSIZE",
+  "authorsOrOrigin": "MIPLIB",
+  "year": "2010+",
+  "problemType": "MILP/CLSP",
+  "description": "MIPLIB lotsize and lot-sizing-derived instances",
+  "status": "confirmed-public",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

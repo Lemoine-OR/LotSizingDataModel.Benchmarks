@@ -1,0 +1,3 @@
+﻿"parent_family","child_family","subset","relation","evidence","status"
+"TD1996","STADTLER2003","C,D,E corresponding attributes","PUBLISHED_EXACT_MATCH_FOR_SOME_INSTANCES","Stadtler/Suerie documentation states some C/D/E instances match Tempelmeier-Derstroff exactly.","NO_EXACT_CROSSWALK_UNTIL_TD1996_CORPUS_IS_ACQUIRED"
+"STADTLER2003","SUERIE_CLSPL","B+ -> datab","PUBLISHED_SUBSET","CLSPL website states datab contains 60 MLCLSP instances taken from Stadtler class B+.","CONTENT_CROSSWALK_AVAILABLE_VIA_LSDM_AND_RAW_PROVENANCE"

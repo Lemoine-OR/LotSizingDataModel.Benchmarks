@@ -1,0 +1,15 @@
+{
+  "familyId": "PHARMA2023",
+  "name": "PHARMA2023",
+  "authorsOrOrigin": "Industrial pharmaceutical dataset",
+  "year": "2023",
+  "problemType": "MLCLSP-L-B",
+  "description": "Real-world anonymized tablets/packaging cases",
+  "status": "confirmed-open",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

@@ -1,0 +1,15 @@
+{
+  "familyId": "HAASEKIMMS",
+  "name": "HAASEKIMMS",
+  "authorsOrOrigin": "Haase & Kimms",
+  "year": "2000",
+  "problemType": "CLSP-SD",
+  "description": "Sequence-dependent lot sizing and scheduling",
+  "status": "generator-target",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

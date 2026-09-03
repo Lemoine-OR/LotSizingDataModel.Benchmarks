@@ -1,0 +1,15 @@
+{
+  "familyId": "BELVAUXWOLSEY",
+  "name": "BELVAUXWOLSEY",
+  "authorsOrOrigin": "Belvaux & Wolsey",
+  "year": "2000-2001",
+  "problemType": "Practical",
+  "description": "Practical mixed-integer lot-sizing cases / bc-prod",
+  "status": "historical-data-location-missing",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

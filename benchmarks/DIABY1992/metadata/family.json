@@ -1,0 +1,15 @@
+{
+  "familyId": "DIABY1992",
+  "name": "DIABY1992",
+  "authorsOrOrigin": "Diaby, Bahl, Karwan & Zionts",
+  "year": "1992",
+  "problemType": "CLSP",
+  "description": "Very-large-scale capacitated lot sizing",
+  "status": "acquisition-target",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

@@ -1,0 +1,20 @@
+name: Validate benchmark repository
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate repository contract
+        run: python tools/validate_repository.py .
+      - name: Coverage summary
+        run: python tools/coverage_report.py
+      - name: Validate final v1 registry and trust catalogue
+        run: python tools/validate_v1_release.py .

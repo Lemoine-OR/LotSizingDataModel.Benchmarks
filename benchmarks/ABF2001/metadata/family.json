@@ -1,0 +1,15 @@
+{
+  "familyId": "ABF2001",
+  "name": "ABF2001",
+  "authorsOrOrigin": "Armentano, Berretta & França",
+  "year": "2001",
+  "problemType": "MLCLSP",
+  "description": "Large multi-stage capacitated test sets",
+  "status": "acquisition-target",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

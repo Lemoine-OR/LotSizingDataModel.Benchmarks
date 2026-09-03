@@ -1,0 +1,7 @@
+instance_id,alias,objective,lower_bound,evidence_status,trust_status,source,identity_note
+G62,tr6-30,61746,60946,LITERATURE_PROVEN_OPTIMAL,LITERATURE_VALUE,"Belvaux and Wolsey 2000 / CORE DP 2000-39","Standard Trigeiro instance mapping reported in later CLSP literature."
+G53,tr12-15,74634,73848,LITERATURE_PROVEN_OPTIMAL,LITERATURE_VALUE,"Belvaux and Wolsey 2000 / CORE DP 2000-39","Standard Trigeiro instance mapping reported in later CLSP literature."
+G69,tr12-30,130596,130177,LITERATURE_PROVEN_OPTIMAL,LITERATURE_VALUE,"Belvaux and Wolsey 2000 / CORE DP 2000-39","Standard Trigeiro instance mapping reported in later CLSP literature."
+G57,tr24-15,136509,136366,LITERATURE_PROVEN_OPTIMAL,LITERATURE_VALUE,"Belvaux and Wolsey 2000 / CORE DP 2000-39","Standard Trigeiro instance mapping reported in later CLSP literature."
+G72,tr24-30,287929,287753,LITERATURE_PROVEN_OPTIMAL,LITERATURE_VALUE,"Belvaux and Wolsey 2000 / CORE DP 2000-39","Standard Trigeiro instance mapping reported in later CLSP literature."
+G30,tr6-15,,,IDENTITY_VARIANT_CONFLICT,UNKNOWN_REFERENCE,"Degraeve and Jans / Belvaux and Wolsey comparison","Original G30 has fractional unit production times; G30b is the unit-time transformed variant. Do not transfer the 37721 optimum to authoritative G30 without a matching fingerprint."

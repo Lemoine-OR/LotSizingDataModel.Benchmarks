@@ -1,0 +1,15 @@
+{
+  "familyId": "CLSPPM",
+  "name": "CLSPPM",
+  "authorsOrOrigin": "CLSP-PM study",
+  "year": "2026",
+  "problemType": "CLSP-PM",
+  "description": "Unrelated parallel machines supplementary benchmark",
+  "status": "confirmed-public",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

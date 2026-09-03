@@ -1,0 +1,15 @@
+{
+  "familyId": "FLEISCHMANNMEYR",
+  "name": "FLEISCHMANNMEYR",
+  "authorsOrOrigin": "Fleischmann & Meyr",
+  "year": "1997",
+  "problemType": "GLSP",
+  "description": "General lot sizing and scheduling",
+  "status": "acquisition-target",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

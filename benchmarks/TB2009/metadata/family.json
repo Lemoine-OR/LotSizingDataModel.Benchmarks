@@ -1,0 +1,54 @@
+{
+  "familyId": "TB2009",
+  "name": "Tempelmeier-Buschkuhl / Sahling et al. MLCLSP-L",
+  "problemType": "MLCLSP-L",
+  "status": "historical-download-url-known",
+  "paper": "F. Sahling, L. Buschkuhl, H. Tempelmeier, S. Helber (2009), Computers & Operations Research 36(9), 2546-2553",
+  "doi": "10.1016/j.cor.2008.10.009",
+  "historicalSource": "http://www.scmp.uni-koeln.de/publikationen/ORS2008MLCLSPL.zip",
+  "instanceCount": 1920,
+  "classes": [
+    {
+      "class": 1,
+      "items": 10,
+      "periods": 4,
+      "resources": 3,
+      "count": 480
+    },
+    {
+      "class": 2,
+      "items": 10,
+      "periods": 8,
+      "resources": 3,
+      "count": 480
+    },
+    {
+      "class": 3,
+      "items": 20,
+      "periods": 8,
+      "resources": 6,
+      "count": 240
+    },
+    {
+      "class": 4,
+      "items": 20,
+      "periods": 16,
+      "resources": 6,
+      "count": 240
+    },
+    {
+      "class": 5,
+      "items": 40,
+      "periods": 8,
+      "resources": 6,
+      "count": 240
+    },
+    {
+      "class": 6,
+      "items": 40,
+      "periods": 16,
+      "resources": 6,
+      "count": 240
+    }
+  ]
+}

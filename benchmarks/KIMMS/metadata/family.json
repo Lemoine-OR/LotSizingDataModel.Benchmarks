@@ -1,0 +1,15 @@
+{
+  "familyId": "KIMMS",
+  "name": "KIMMS",
+  "authorsOrOrigin": "Kimms",
+  "year": "1990s",
+  "problemType": "MLCLSP/LS",
+  "description": "Parameterized standard test-bed generator",
+  "status": "generator-target",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

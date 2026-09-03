@@ -1,0 +1,218 @@
+﻿[
+    {
+        "workstream":  "FAMILY",
+        "scope":  "ABF2001",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "AG1986",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "AGK1984",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "BELVAUXWOLSEY",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "CHES",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "CLARKARMENTANO",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "CLSPPM",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "DIABY1992",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "DIABYMARTEL1993",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "DS1981",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "FLEISCHMANN",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "FLEISCHMANNMEYR",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "HAASE1996",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "HAASEKIMMS",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "KIMMS",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "MAESVW",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "MIPLIB_LOTSIZE",
+        "blocker":  "EXACT_LINEAGE_AND_FORMAT_AUDIT",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "MULTILSB",
+        "blocker":  "SHARED_PRODUCTION_FAMILY_SETUP_MODEL",
+        "available_assets":  "raw=135;normalized=120",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "HIGH"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "PHARMA2023",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "SEANNER",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "STOCHTIMING",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "TB2009",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=2;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "WILLEMS",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "FAMILY",
+        "scope":  "WW1958",
+        "blocker":  "SOURCE_ACQUISITION",
+        "available_assets":  "raw=1;normalized=0",
+        "required_action":  "Resolve blocker, verify provenance and licence, convert losslessly, then run global admission gate.",
+        "priority":  "MEDIUM"
+    },
+    {
+        "workstream":  "EVIDENCE",
+        "scope":  "CATTRYSSE1990",
+        "blocker":  "120 complete solutions unavailable or unchecked",
+        "available_assets":  "120 literature objective references",
+        "required_action":  "Acquire complete vectors and run Checker.",
+        "priority":  "HIGH"
+    },
+    {
+        "workstream":  "EVIDENCE",
+        "scope":  "TRIGEIRO1989",
+        "blocker":  "5 lower-bound references require primary-source reconciliation",
+        "available_assets":  "5 documented claims",
+        "required_action":  "Reconcile semantics and provenance; do not promote without proof.",
+        "priority":  "HIGH"
+    },
+    {
+        "workstream":  "EVIDENCE",
+        "scope":  "DJ2000",
+        "blocker":  "96 feasible Checker-verified solutions lack optimality proof; 40 claims quarantined",
+        "available_assets":  "109 checker reports",
+        "required_action":  "Preserve feasibility status and acquire proof certificates where possible.",
+        "priority":  "MEDIUM"
+    }
+]

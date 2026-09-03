@@ -1,0 +1,15 @@
+{
+  "familyId": "CLARKARMENTANO",
+  "name": "CLARKARMENTANO",
+  "authorsOrOrigin": "Clark & Armentano",
+  "year": "1995",
+  "problemType": "MLCLSP",
+  "description": "Multi-stage capacitated lot sizing with lead times",
+  "status": "acquisition-target",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

@@ -1,0 +1,3 @@
+﻿"parent_family","child_family","child_subset","relation_type","proof_level","file_level_crosswalk"
+"TD1996","STADTLER2003","C/D/E corresponding attributes","PUBLISHED_EXACT_MATCH_FOR_SOME_INSTANCES","BIBLIOGRAPHIC","PENDING_ORIGINAL_TD1996_IDENTITIES"
+"STADTLER2003","SUERIE_CLSPL","B+ -> datab","PUBLISHED_60_INSTANCE_SUBSET","BIBLIOGRAPHIC","LSDM_REPRESENTATION_DIFFERS"

@@ -1,0 +1,12 @@
+{
+  "familyId": "TD1996",
+  "name": "Tempelmeier-Derstroff 1996",
+  "problemType": "MLCLSP",
+  "status": "original-source-location-not-confirmed",
+  "paper": "H. Tempelmeier and M. Derstroff (1996), Management Science 42(5), 738-757",
+  "doi": "10.1287/mnsc.42.5.738",
+  "notes": [
+    "Foundational multi-level capacitated multi-item lot-sizing benchmark lineage with setup times.",
+    "Public Stadtler/Suerie test sets reuse or extend this experimental design; exact original-file identity must be tracked explicitly."
+  ]
+}

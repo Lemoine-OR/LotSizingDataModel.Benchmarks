@@ -1,0 +1,6 @@
+family_id,asset_id,url,asset_type,expected_content,redistribution_note
+STADTLER2003,mlclsp-complete,https://www.suerie.de/testsets/hst/ti_mlclsp.zip,zip,MLCLSP test sets including objective values and lower bounds,Public benchmark author site
+STADTLER2003,format-description,https://www.suerie.de/testsets/hst/TI_Description.pdf,pdf,Data-format and nomenclature description,Documentation
+SUERIE_CLSPL,clspl-complete,https://www.suerie.de/testsets/clspl/testdata.tar.bz2,tar.bz2,Full CLSPL data package,Public benchmark author site
+TB2009,mlclspl-historical,http://www.scmp.uni-koeln.de/publikationen/ORS2008MLCLSPL.zip,zip,Historical 1920-instance MLCLSP-L package,Historical paper URL; availability not guaranteed
+TB2009,paper,https://diskussionspapiere.wiwi.uni-hannover.de/pdf_bib/dp-400.pdf,pdf,Paper describing classes and reference values,Public paper

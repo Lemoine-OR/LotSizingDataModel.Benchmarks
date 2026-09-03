@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BenchmarkFamily",
+  "type": "object",
+  "required": [
+    "familyId",
+    "name",
+    "problemType",
+    "status"
+  ],
+  "properties": {
+    "familyId": {
+      "type": "string",
+      "pattern": "^[A-Z0-9_-]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "problemType": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "bibliographic",
+        "acquisition-target",
+        "confirmed-public",
+        "confirmed-mirror",
+        "existing-importer",
+        "high-priority",
+        "generator-target",
+        "historical-data-location-missing",
+        "confirmed-open"
+      ]
+    },
+    "originalPaper": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sourceUrl": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "redistributionStatus": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "parentFamilies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

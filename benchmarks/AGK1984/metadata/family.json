@@ -1,0 +1,15 @@
+{
+  "familyId": "AGK1984",
+  "name": "AGK1984",
+  "authorsOrOrigin": "Afentakis, Gavish & Karmarkar",
+  "year": "1984",
+  "problemType": "MLLS",
+  "description": "Multi-level uncapacitated lot sizing",
+  "status": "bibliographic",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

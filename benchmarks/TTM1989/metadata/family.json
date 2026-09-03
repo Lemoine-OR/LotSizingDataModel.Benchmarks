@@ -1,0 +1,15 @@
+{
+  "familyId": "TTM1989",
+  "name": "TTM1989",
+  "authorsOrOrigin": "Trigeiro, Thomas & McClain",
+  "year": "1989",
+  "problemType": "CLSP",
+  "description": "Capacitated lot sizing with setup times",
+  "status": "confirmed-mirror",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

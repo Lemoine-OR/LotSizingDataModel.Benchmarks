@@ -1,0 +1,15 @@
+{
+  "familyId": "EM1987",
+  "name": "EM1987",
+  "authorsOrOrigin": "Eppen & Martin",
+  "year": "1987",
+  "problemType": "CLSP",
+  "description": "Multi-item capacitated lot sizing; variable redefinition",
+  "status": "acquisition-target",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

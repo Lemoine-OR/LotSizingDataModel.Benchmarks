@@ -1,0 +1,14 @@
+**/bin/
+**/obj/
+*.user
+.DS_Store
+Thumbs.db
+
+# Heavy instance payloads are released only through an explicit, reviewed data publication.
+benchmarks/**/*.xml
+benchmarks/**/raw/*
+!benchmarks/**/raw/.gitkeep
+
+# Local and intermediate release material.
+reports/v0.*/
+releases/**/*.zip

@@ -1,0 +1,68 @@
+﻿[
+    {
+        "control":  "REGISTRY_ROWS",
+        "expected":  "7905",
+        "actual":  7905,
+        "status":  "PASS"
+    },
+    {
+        "control":  "CANONICAL_FAMILIES",
+        "expected":  "7",
+        "actual":  7,
+        "status":  "PASS"
+    },
+    {
+        "control":  "GLOBAL_IDS_UNIQUE",
+        "expected":  "TRUE",
+        "actual":  "TRUE",
+        "status":  "PASS"
+    },
+    {
+        "control":  "HISTORICAL_COLLISIONS",
+        "expected":  "50 groups / 100 rows",
+        "actual":  "50 groups / 100 rows",
+        "status":  "PASS"
+    },
+    {
+        "control":  "DUPLICATE_FINGERPRINT_CLUSTERS",
+        "expected":  "0",
+        "actual":  0,
+        "status":  "PASS"
+    },
+    {
+        "control":  "LINEAGE_EDGES",
+        "expected":  "0",
+        "actual":  0,
+        "status":  "PASS"
+    },
+    {
+        "control":  "G30_G30B",
+        "expected":  "PASS",
+        "actual":  "PASS",
+        "status":  "PASS"
+    },
+    {
+        "control":  "CANONICAL_XML_HASHES",
+        "expected":  "7905 PASS",
+        "actual":  "7905 PASS",
+        "status":  "PASS"
+    },
+    {
+        "control":  "ACTIONABLE_CHALLENGES",
+        "expected":  "125",
+        "actual":  125,
+        "status":  "PASS"
+    },
+    {
+        "control":  "V2_WORKSTREAMS",
+        "expected":  "27",
+        "actual":  27,
+        "status":  "PASS"
+    },
+    {
+        "control":  "MODEL_CHANGE",
+        "expected":  "NONE",
+        "actual":  "NONE",
+        "status":  "PASS"
+    }
+]

@@ -1,0 +1,15 @@
+{
+  "familyId": "AG1986",
+  "name": "AG1986",
+  "authorsOrOrigin": "Afentakis & Gavish",
+  "year": "1986",
+  "problemType": "MLLS",
+  "description": "Multi-level lot sizing / BOM structures",
+  "status": "bibliographic",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

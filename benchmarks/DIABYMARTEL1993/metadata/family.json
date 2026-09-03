@@ -1,0 +1,15 @@
+{
+  "familyId": "DIABYMARTEL1993",
+  "name": "DIABYMARTEL1993",
+  "authorsOrOrigin": "Diaby & Martel",
+  "year": "1993",
+  "problemType": "MELS",
+  "description": "Multi-echelon dynamic lot sizing with purchase/transport discounts",
+  "status": "acquisition-target",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

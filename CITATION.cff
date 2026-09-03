@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "LotSizingDataModel.Benchmarks"
+message: "If you use this benchmark library, please cite the repository release and the original benchmark sources."
+type: dataset
+version: 0.1.0
+date-released: 2026-09-01
+license: MIT
+repository-code: "https://github.com/OWNER/LotSizingDataModel.Benchmarks"
+keywords:
+  - lot sizing
+  - production planning
+  - benchmark
+  - operations research
+  - LotSizingDataModel

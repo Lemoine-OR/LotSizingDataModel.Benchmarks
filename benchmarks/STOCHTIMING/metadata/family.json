@@ -1,0 +1,15 @@
+{
+  "familyId": "STOCHTIMING",
+  "name": "STOCHTIMING",
+  "authorsOrOrigin": "Stochastic timing benchmark",
+  "year": "2026",
+  "problemType": "Stochastic-CLSP",
+  "description": "Stochastic demand timing benchmark",
+  "status": "confirmed-public",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

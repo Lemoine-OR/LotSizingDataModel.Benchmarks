@@ -1,0 +1,15 @@
+{
+  "familyId": "CHES",
+  "name": "CHES",
+  "authorsOrOrigin": "Chesapeake Decision Sciences",
+  "year": "historical",
+  "problemType": "Practical",
+  "description": "Practical production planning collection",
+  "status": "historical-data-location-missing",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

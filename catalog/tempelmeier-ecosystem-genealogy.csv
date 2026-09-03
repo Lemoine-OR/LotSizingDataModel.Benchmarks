@@ -1,0 +1,6 @@
+parent_family,child_family,subset_or_set,relation,trust_rule
+TD1996,STADTLER2003,C/D/E and related classes,experimental-design lineage; some corresponding instances match exactly,Prove identity before inheriting objective/bounds
+STADTLER2003,SUERIE_CLSPL,TestSet3-datab,60 instances taken from Stadtler class B+,Map exact source ID before inheriting result
+TTM1989,SUERIE_CLSPL,TestSet1-data,format conversion of Trigeiro et al. instances,Preserve conversion mapping conv_ttm_new.txt
+TTM1989,SUERIE_CLSPL,TestSet2-datam,aggregated Phase III instances,Never treat aggregated instance as identical to TTM parent
+TD1996,TB2009,MLCLSP-L methodology lineage,setup-carry-over extension / related test generation,No BKV inheritance without exact identity

@@ -1,0 +1,3 @@
+﻿"family","url","source_page","local_path","sha256","length","acquired_utc","status"
+"TD1996","","","D:\Dev\LotSizingDataModel.Benchmarks\benchmarks\TD1996\raw\upstream\testdata.zip","","0","2026-09-02T19:31:18.8240116Z","NOT_FOUND"
+"TRIGEIRO1989","https://github.com/gsamaro/trigeiro_fdata/archive/refs/heads/master.zip","https://github.com/gsamaro/trigeiro_fdata","D:\Dev\LotSizingDataModel.Benchmarks\benchmarks\TRIGEIRO1989\raw\upstream\trigeiro_fdata.zip","71E15E230A0D98B8B528F0F2B43D5930938961A0ACB65AAAFD46865212C6F406","19559","2026-09-02T19:31:20.0947459Z","DOWNLOADED_GITHUB_PUBLIC_REPOSITORY"

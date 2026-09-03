@@ -1,0 +1,15 @@
+{
+  "familyId": "HAASE1996",
+  "name": "HAASE1996",
+  "authorsOrOrigin": "Haase",
+  "year": "1996",
+  "problemType": "CLSP-LS",
+  "description": "Lot sizing and scheduling test generator",
+  "status": "generator-target",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

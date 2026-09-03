@@ -1,0 +1,102 @@
+﻿{
+    "release":  "v1.0.0",
+    "generated_utc":  "2026-09-03T13:50:36.7751713Z",
+    "registry_rows":  7905,
+    "canonical_families":  7,
+    "actionable_challenges":  125,
+    "v2_workstreams":  27,
+    "canonical_xml_changes":  0,
+    "rights_statement":  "Licences not invented; consult the family provenance audit before redistribution.",
+    "files":  [
+                  {
+                      "path":  "catalog\\global\\GLOBAL-BENCHMARK-REGISTRY-v1.0.0.csv",
+                      "bytes":  73312093,
+                      "sha256":  "CE6AF38ED957D1F5D0955330B5B511BC27C1677E9E87BEE6B5804F93543D8BEF"
+                  },
+                  {
+                      "path":  "catalog\\global\\GLOBAL-BENCHMARK-REGISTRY-v1.0.0.json",
+                      "bytes":  79045068,
+                      "sha256":  "0893B2BD532DD1A83D51B4DAE6BE17B6BF30AF9BA03E8ED43133D2AE7327B464"
+                  },
+                  {
+                      "path":  "catalog\\global\\GLOBAL-CHALLENGE-SUMMARY-v1.0.0.csv",
+                      "bytes":  116,
+                      "sha256":  "5882304CF0BD940DD2F3ABCBB871940810617538D5E0D3B825D2DBBEC9AB42C7"
+                  },
+                  {
+                      "path":  "catalog\\global\\GLOBAL-FAMILY-PORTFOLIO-v1.0.0.csv",
+                      "bytes":  3263,
+                      "sha256":  "450318E1BCDFAA5A098279917B1F1665C7C8CDA7B9C54A395C9DFB5394356103"
+                  },
+                  {
+                      "path":  "catalog\\global\\GLOBAL-LICENCE-PROVENANCE-AUDIT-v1.0.0.csv",
+                      "bytes":  2608,
+                      "sha256":  "3CA7DD43D5303D49BA82B8DA33FF57E6EBD926B3B3CAF724E8796D618D9945BF"
+                  },
+                  {
+                      "path":  "catalog\\global\\GLOBAL-NORMALIZED-TRUST-v1.0.0.csv",
+                      "bytes":  3325065,
+                      "sha256":  "3B7AA4AB81A8E9E80E4119A096E7491974C39A6F47C9ABD891A6CB366485700A"
+                  },
+                  {
+                      "path":  "catalog\\global\\GLOBAL-NORMALIZED-TRUST-v1.0.0.json",
+                      "bytes":  7334872,
+                      "sha256":  "57FB982A7FA980001C7E0203B970B93854F3264A3D5FD5105291002345AA984F"
+                  },
+                  {
+                      "path":  "catalog\\global\\GLOBAL-OPEN-CHALLENGES-v1.0.0.csv",
+                      "bytes":  32787,
+                      "sha256":  "EA36301E330AA495ADD2C38B8ADF4A2F9B90287E9FD35F4BE042A7D096819CBF"
+                  },
+                  {
+                      "path":  "catalog\\global\\GLOBAL-TRUST-COVERAGE-v1.0.0.csv",
+                      "bytes":  215,
+                      "sha256":  "1955C0D5997632D6290BE99BE558127E0D096D7738AE9BF6639068B2E3F5BB01"
+                  },
+                  {
+                      "path":  "catalog\\global\\V2-DEFERRED-WORK-v1.0.0.csv",
+                      "bytes":  4882,
+                      "sha256":  "07B5F1E519A0DE770B62F34EBA1EA77D6A13DC958ED134DB7FB3FA8ADDB1A931"
+                  },
+                  {
+                      "path":  "catalog\\global\\V2-DEFERRED-WORK-v1.0.0.json",
+                      "bytes":  9235,
+                      "sha256":  "7C37E4EC9695A1838184634C6BB0CC2CD390CC677B24007D20081668F0DF504F"
+                  },
+                  {
+                      "path":  "docs\\benchmarks\\README-v1.0.0.md",
+                      "bytes":  818,
+                      "sha256":  "7AC8CB12BC7AC95BEFBFA6D1FEC3886CB375377396457B80788239CFE65AAE7E"
+                  },
+                  {
+                      "path":  "docs\\benchmarks\\TRUST-AND-EVIDENCE-v1.0.0.md",
+                      "bytes":  770,
+                      "sha256":  "2E57EA6B8210A2FFB65AF4BF45F9D96CE3457736D6CE12DA2AA4F2D1E5F0648F"
+                  },
+                  {
+                      "path":  "docs\\benchmarks\\V2-BACKLOG-v1.0.0.md",
+                      "bytes":  708,
+                      "sha256":  "D4D07099779005A31D467F64B9DE8C5F52B7F4EC907B0F5E69034DA4C5DE9D39"
+                  },
+                  {
+                      "path":  "docs\\roadmap\\Roadmap_LotSizingDataModel_Benchmarks_v1.0.0_finale.docx",
+                      "bytes":  48032,
+                      "sha256":  "9E4FC0A99EF7327F3A1033102299981DBBF8246FE30786897041075AF052B7FD"
+                  },
+                  {
+                      "path":  "docs\\roadmap\\ROADMAP-FINAL-v1.0.0.md",
+                      "bytes":  354,
+                      "sha256":  "ADB31052427AC37052791700547B740384D1B7B7ED0993580FB997AD26BC597F"
+                  },
+                  {
+                      "path":  "reports\\v1.0.0\\FINAL-VALIDATION-MATRIX-v1.0.0.csv",
+                      "bytes":  523,
+                      "sha256":  "AB0DF67E6FA2EDF8E7A9678E85A37A4CB17631E971A7FE02F788C0677E39287E"
+                  },
+                  {
+                      "path":  "reports\\v1.0.0\\FINAL-VALIDATION-MATRIX-v1.0.0.json",
+                      "bytes":  1576,
+                      "sha256":  "D9896D37F2BCCB05CE70580932B6F7B8FC188833023E72436BEF7080D9C2FA57"
+                  }
+              ]
+}

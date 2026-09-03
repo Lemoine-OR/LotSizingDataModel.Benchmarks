@@ -1,0 +1,19 @@
+{
+  "familyId": "MULTILSB",
+  "name": "MULTILSB",
+  "authorsOrOrigin": "Akartunali & Miller",
+  "year": "2009-2015",
+  "problemType": "MLCLSP-B",
+  "description": "Multi-item/multi-level capacitated lot sizing with backlogging",
+  "status": "official-raw-acquired-model-mapping-pending",
+  "sourceDoi": "10.15129/252b7827-b62b-4af4-8869-64b12b1c69a1",
+  "license": "CC BY 4.0",
+  "rawDataAcquired": true,
+  "rawInstanceCount": 120,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0,
+  "canonicalAdmissionBlocker": "Explicit lossless backlogging mapping required"
+}

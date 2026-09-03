@@ -1,0 +1,10 @@
+test_set,archive_token,periods,items,resources,setup_times,p1_structure,p2_assignment,p3_setup_profile,p4_cv,p5_utilization,p6_tbo,p7_seasonality,official_test_set
+A+,classap,24,10,3,No,G;K,0;5,0,1;2,1;2;3;4;5,2;3;4,0;1;2,True
+B+,classbp,24,10,3,Yes,G;K,0;5,1;2;3;4,1;2,1;2;3;4;5,2;3;4,0;1;2,True
+C,classc,16,40,6,No,G;K,0;5,0,1;2,1;2;3;4;5,2;3;4,0;1;2,True
+C+,classcp,48,40,6,No,G;K,0;5,0,1;2,1;2;3;4;5,2;3;4,0;1;2,True
+D,classd,16,40,6,Yes,G;K,0;5,1;4,1;2,1;2;3;4;5,2;3;4,0;1;2,True
+D+,classdp,48,40,6,Yes,G;K,0;5,1;4,1;2,1;2;3;4;5,2;3;4,0;1;2,True
+E,classe,16,100,10,No,G,5,0,1;2,1;2;3;4;5,2;3;4,0,True
+E+,classep,48,100,10,No,G,5,0,1;2,1;2;3;4;5,2;3;4,0,True
+LEGACY-CM,classcm,0,0,0,Unknown,,,,,,,,False

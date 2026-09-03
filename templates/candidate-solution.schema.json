@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LotSizingDataModel benchmark candidate",
+  "type": "object",
+  "required": [
+    "familyId",
+    "canonicalInstanceId",
+    "declaredObjective",
+    "sourceType"
+  ],
+  "properties": {
+    "familyId": {
+      "type": "string"
+    },
+    "canonicalInstanceId": {
+      "type": "string"
+    },
+    "declaredObjective": {
+      "type": "number"
+    },
+    "sourceType": {
+      "enum": [
+        "COMPLETE_SOLUTION",
+        "SOLVER_RESULT",
+        "LITERATURE_VALUE_ONLY"
+      ]
+    },
+    "solutionFile": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "lowerBound": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "provenOptimal": {
+      "type": "boolean"
+    },
+    "solver": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "method": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "author": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "familyId": "MAESVW",
+  "name": "MAESVW",
+  "authorsOrOrigin": "Maes & Van Wassenhove",
+  "year": "1988",
+  "problemType": "CLSP",
+  "description": "Capacitated lot sizing generators/heuristics",
+  "status": "generator-target",
+  "rawDataAcquired": false,
+  "conversionStarted": false,
+  "instancesConverted": 0,
+  "knownObjectiveCount": 0,
+  "completeSolutionCount": 0,
+  "verifiedSolutionCount": 0
+}

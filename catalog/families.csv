@@ -1,0 +1,31 @@
+family_id,authors_or_origin,year,problem_type,description,status
+WW1958,Wagner & Whitin,1958,ULS,Foundational dynamic lot sizing,bibliographic
+DS1981,Dixon & Silver,1981,CLSP,Multi-item capacitated lot sizing heuristic family,bibliographic
+EM1987,Eppen & Martin,1987,CLSP,Multi-item capacitated lot sizing; variable redefinition,acquisition-target
+TTM1989,"Trigeiro, Thomas & McClain",1989,CLSP,Capacitated lot sizing with setup times,confirmed-mirror
+DIABY1992,"Diaby, Bahl, Karwan & Zionts",1992,CLSP,Very-large-scale capacitated lot sizing,acquisition-target
+DIABYMARTEL1993,Diaby & Martel,1993,MELS,Multi-echelon dynamic lot sizing with purchase/transport discounts,acquisition-target
+TD1996,Tempelmeier & Derstroff,1996,MLCLSP,Multi-level capacitated lot sizing with setup times,high-priority
+STADTLER2003,Stadtler,2003,MLCLSP,MLCLSP benchmark/archive with bounds/objectives,confirmed-public
+SUERIE_CLSPL,Sürie & Stadtler,2003,CLSPL,Capacitated lot sizing with linked lot sizes,confirmed-public
+DJ2000,Dellaert & Jeunet,2000,MLLP,Multi-level uncapacitated lot sizing,existing-importer
+MULTILSB,Akartunali & Miller,2009-2015,MLCLSP-B,Multi-item/multi-level capacitated lot sizing with backlogging,confirmed-public
+TB2009,Tempelmeier & Buschkühl,2009,MLCLSP-L,Setup carry-over benchmark family,high-priority
+AG1986,Afentakis & Gavish,1986,MLLS,Multi-level lot sizing / BOM structures,bibliographic
+AGK1984,"Afentakis, Gavish & Karmarkar",1984,MLLS,Multi-level uncapacitated lot sizing,bibliographic
+CLARKARMENTANO,Clark & Armentano,1995,MLCLSP,Multi-stage capacitated lot sizing with lead times,acquisition-target
+ABF2001,"Armentano, Berretta & França",2001,MLCLSP,Large multi-stage capacitated test sets,acquisition-target
+MAESVW,Maes & Van Wassenhove,1988,CLSP,Capacitated lot sizing generators/heuristics,generator-target
+HAASE1996,Haase,1996,CLSP-LS,Lot sizing and scheduling test generator,generator-target
+HAASEKIMMS,Haase & Kimms,2000,CLSP-SD,Sequence-dependent lot sizing and scheduling,generator-target
+KIMMS,Kimms,1990s,MLCLSP/LS,Parameterized standard test-bed generator,generator-target
+FLEISCHMANN,Fleischmann,1990,DLSP,Discrete lot sizing and scheduling,acquisition-target
+FLEISCHMANNMEYR,Fleischmann & Meyr,1997,GLSP,General lot sizing and scheduling,acquisition-target
+SEANNER,Seeanner,2013,GLSPMS,Multi-stage simultaneous lot sizing and scheduling,acquisition-target
+BELVAUXWOLSEY,Belvaux & Wolsey,2000-2001,Practical,Practical mixed-integer lot-sizing cases / bc-prod,historical-data-location-missing
+CHES,Chesapeake Decision Sciences,historical,Practical,Practical production planning collection,historical-data-location-missing
+PHARMA2023,Industrial pharmaceutical dataset,2023,MLCLSP-L-B,Real-world anonymized tablets/packaging cases,confirmed-open
+WILLEMS,Willems,2008,SupplyChain,Real-world supply-chain structures reusable in lot-sizing,acquisition-target
+CLSPPM,CLSP-PM study,2026,CLSP-PM,Unrelated parallel machines supplementary benchmark,confirmed-public
+STOCHTIMING,Stochastic timing benchmark,2026,Stochastic-CLSP,Stochastic demand timing benchmark,confirmed-public
+MIPLIB_LOTSIZE,MIPLIB,2010+,MILP/CLSP,MIPLIB lotsize and lot-sizing-derived instances,confirmed-public

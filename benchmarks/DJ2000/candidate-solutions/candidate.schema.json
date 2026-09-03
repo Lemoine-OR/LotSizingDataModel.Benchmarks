@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LotSizingBenchmarkCandidateSolution",
+  "type": "object",
+  "required": [
+    "familyId",
+    "canonicalInstanceId",
+    "declaredObjective",
+    "sourceType"
+  ],
+  "properties": {
+    "familyId": { "const": "DJ2000" },
+    "canonicalInstanceId": { "type": "string" },
+    "declaredObjective": { "type": "number" },
+    "sourceType": {
+      "enum": [
+        "COMPLETE_SOLUTION",
+        "LITERATURE_VALUE_ONLY",
+        "SOLVER_RESULT"
+      ]
+    },
+    "solutionFile": { "type": ["string", "null"] },
+    "lowerBound": { "type": ["number", "null"] },
+    "solver": { "type": ["string", "null"] },
+    "method": { "type": ["string", "null"] },
+    "author": { "type": ["string", "null"] },
+    "reference": { "type": ["string", "null"] },
+    "date": { "type": ["string", "null"] },
+    "notes": { "type": ["string", "null"] }
+  }
+}

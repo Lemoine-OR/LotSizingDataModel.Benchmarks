@@ -1,0 +1,50 @@
+{
+  "familyId": "DJ2000",
+  "canonicalName": "Dellaert–Jeunet / classical 176-instance MLLS benchmark lineage",
+  "problemType": "MLLP / MLULSP",
+  "canonicalPaper": {
+    "authors": [
+      "Nico Dellaert",
+      "Jully Jeunet"
+    ],
+    "year": 2000,
+    "title": "Solving large unconstrained multilevel lot-sizing problems using a hybrid genetic algorithm",
+    "journal": "International Journal of Production Research",
+    "volume": "38",
+    "issue": "5",
+    "pages": "1083-1099",
+    "doi": "10.1080/002075400189031"
+  },
+  "classes": [
+    {
+      "phase": "ph1",
+      "count": 96,
+      "items": 5,
+      "periods": 12,
+      "origin": "Coleman–McKnew lineage, reused by Dellaert–Jeunet",
+      "optimality": "optimal solutions known"
+    },
+    {
+      "phase": "ph2",
+      "count": 40,
+      "items": "40/50",
+      "periods": "12/24",
+      "origin": "Afentakis product structures / Dellaert–Jeunet benchmark class",
+      "optimality": "best-known literature values"
+    },
+    {
+      "phase": "ph3",
+      "count": 40,
+      "items": 500,
+      "periods": "36/52",
+      "origin": "synthesized by Dellaert–Jeunet",
+      "optimality": "best-known literature values"
+    }
+  ],
+  "targetCount": 176,
+  "notes": [
+    "Do not describe all 176 instances as originally invented by Dellaert and Jeunet.",
+    "The 2014 Xiao et al. VNS paper reports new BKS for 5/40 medium and 30/40 large instances; its per-instance table must be reconciled before final BKV publication.",
+    "Local CPLEX results marked provenOptimal are stronger evidence for the exact converted instance when fingerprint and objective are verified."
+  ]
+}
