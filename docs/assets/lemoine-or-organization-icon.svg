@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Lemoine-OR organization icon</title>
+  <desc id="desc">A geometric L and OR monogram crossed by an optimization path.</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="920" y2="960" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1739"/>
+      <stop offset="1" stop-color="#071022"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="190" y1="790" x2="850" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#27D7D0"/>
+      <stop offset="1" stop-color="#51A8FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#020611" flood-opacity=".5"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" rx="220" fill="url(#bg)"/>
+  <rect x="42" y="42" width="940" height="940" rx="186" fill="none" stroke="#18315E" stroke-width="4"/>
+  <g filter="url(#shadow)">
+    <path d="M236 218v500c0 46 37 83 83 83h197" fill="none" stroke="#F5FAFF" stroke-width="88" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="618" cy="515" r="172" fill="none" stroke="#F5FAFF" stroke-width="76"/>
+    <path d="M742 637 857 786" fill="none" stroke="#F5FAFF" stroke-width="76" stroke-linecap="round"/>
+  </g>
+  <path d="M174 721c126-8 206-72 286-154 84-86 160-162 294-190" fill="none" stroke="url(#accent)" stroke-width="34" stroke-linecap="round"/>
+  <circle cx="174" cy="721" r="31" fill="#27D7D0" stroke="#071022" stroke-width="12"/>
+  <circle cx="460" cy="567" r="31" fill="#39C5E4" stroke="#071022" stroke-width="12"/>
+  <circle cx="754" cy="377" r="31" fill="#51A8FF" stroke="#071022" stroke-width="12"/>
+</svg>

@@ -1,109 +1,124 @@
-# LotSizingDataModel.Benchmarks
+<div align="center">
+  <img src="docs/assets/benchmark-hero.svg" width="100%" alt="LotSizingDataModel.Benchmarks — scientific benchmark explorer">
 
-> **A curated, traceable and reproducible benchmark library for lot-sizing research.**
+  <br>
 
-[![Status](https://img.shields.io/badge/status-v1.0.0-blue)](#project-status)
-[![Data model](https://img.shields.io/badge/format-LotSizingDataModel-blue)](#lot-sizing-data-model)
-[![Provenance](https://img.shields.io/badge/provenance-required-success)](documentation/provenance.md)
-[![BKV policy](https://img.shields.io/badge/BKV-versioned-informational)](documentation/known-results.md)
+  <a href="https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/"><img src="https://img.shields.io/badge/OPEN_THE_BENCHMARK_EXPLORER-26C6DA?style=for-the-badge&logo=github&logoColor=071D43" alt="Open the benchmark explorer"></a>
+  <a href="https://github.com/Lemoine-OR/LotSizingDataModel.Benchmarks/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/RELEASE-v1.0.0-2E74B5?style=for-the-badge&logo=github" alt="Release v1.0.0"></a>
 
-## Why this repository exists
+  <br><br>
 
-Lot-sizing research has accumulated decades of benchmark instances across papers, university web pages,
-FTP servers, supplementary archives, theses, generators and modern repositories. The same instance may appear
-under several names, transformations or mathematical formats, while published objective values are not always
-clearly distinguished between *optimal*, *best known*, *heuristic* and *lower bound*.
+  <strong>A curated, traceable and reproducible benchmark library for lot-sizing research.</strong>
 
-**LotSizingDataModel.Benchmarks** aims to provide one reproducible reference layer:
+  <br><br>
 
-**Original source → provenance → LotSizingDataModel XML → validation → known results → reference solution**
+  [![Validation](https://github.com/Lemoine-OR/LotSizingDataModel.Benchmarks/actions/workflows/validate.yml/badge.svg)](https://github.com/Lemoine-OR/LotSizingDataModel.Benchmarks/actions/workflows/validate.yml)
+  [![Pages](https://github.com/Lemoine-OR/LotSizingDataModel.Benchmarks/actions/workflows/pages.yml/badge.svg)](https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/)
+  [![Instances](https://img.shields.io/badge/canonical_instances-7%2C905-071D43)](https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/)
+  [![Families](https://img.shields.io/badge/problem_families-7-0B2D63)](https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/)
+</div>
 
-No benchmark, parameter, objective value or solution is invented. Missing information is explicitly marked
-`unknown`.
+---
 
-## Repository entry points
+## Explore the benchmark library
 
-| I need... | Go to |
+The **[interactive benchmark explorer](https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/)** is the recommended entry point. It provides a three-level scientific catalogue:
+
+> **Problem family → instance lot → searchable instance table**
+
+Each lot page reports periods, items, work centers, the strongest known objective value or lower bound, the evidence status, and whether optimality has actually been proved. Every row links directly to its canonical XML file.
+
+<table>
+  <tr>
+    <td width="33%" align="center"><h3>1 · Choose a problem</h3><p>Seven canonical lot-sizing families presented as visual panels.</p><a href="https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/"><strong>Browse problems →</strong></a></td>
+    <td width="33%" align="center"><h3>2 · Select a lot</h3><p>Experimental classes and source-defined instance sets remain explicit.</p><a href="https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/portal/families/td1996.html"><strong>View an example →</strong></a></td>
+    <td width="33%" align="center"><h3>3 · Inspect evidence</h3><p>Filter instances and distinguish best reported, feasible and proven optimal.</p><a href="https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/portal/lots/dj2000--phase1.html"><strong>Open an instance table →</strong></a></td>
+  </tr>
+</table>
+
+## Canonical problem families
+
+<table>
+  <tr>
+    <td><a href="https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/portal/families/cattrysse1990.html"><strong>CATTRYSSE1990</strong></a><br><sub>120 instances · 3 lots</sub></td>
+    <td><a href="https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/portal/families/dj2000.html"><strong>DJ2000</strong></a><br><sub>176 instances · 3 lots</sub></td>
+    <td><a href="https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/portal/families/em1987.html"><strong>EM1987</strong></a><br><sub>17 instances · 8 lots</sub></td>
+  </tr>
+  <tr>
+    <td><a href="https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/portal/families/stadtler2003.html"><strong>STADTLER2003</strong></a><br><sub>2,100 instances · 8 lots</sub></td>
+    <td><a href="https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/portal/families/suerie-clspl.html"><strong>SUERIE_CLSPL</strong></a><br><sub>1,291 instances · 1 collection</sub></td>
+    <td><a href="https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/portal/families/td1996.html"><strong>TD1996</strong></a><br><sub>3,450 instances · 5 lots</sub></td>
+  </tr>
+  <tr><td colspan="3" align="center"><a href="https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/portal/families/trigeiro1989.html"><strong>TRIGEIRO1989</strong></a><br><sub>751 instances · 5 lots</sub></td></tr>
+</table>
+
+## Release snapshot
+
+| Scientific control | v1.0.0 result |
+|---|---:|
+| Canonical instances | **7,905** |
+| Canonical families | **7** |
+| Global identifiers | **Unique** |
+| Historical ID collisions | **50 groups / 100 rows, explicitly namespaced** |
+| Exact fingerprint duplicates | **0** |
+| Exact lineage edges | **0** |
+| G30 / G30b non-identity guard | **PASS** |
+| Canonical XML SHA-256 checks | **7,905 / 7,905 PASS** |
+| Actionable evidence challenges | **125** |
+
+## Repository map
+
+| I need… | Go to |
 |---|---|
-| Pure benchmark instances | `benchmarks/<FAMILY>/instances/` |
-| Instances enriched with the best available reference | `benchmarks/<FAMILY>/instances-with-reference/` |
-| Complete reference solutions | `benchmarks/<FAMILY>/solutions/` |
-| Original upstream files | `benchmarks/<FAMILY>/raw/` |
-| Source and conversion metadata | `benchmarks/<FAMILY>/metadata/` |
-| Global benchmark catalogue | `catalog/` |
-| Data generators | `generators/` |
-| Conversion / validation rules | `documentation/` |
+| Interactive catalogue | **[Benchmark Explorer](https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/)** |
+| Canonical XML instances | [`benchmarks/<FAMILY>/instances/`](benchmarks/) |
+| Global registry | [`GLOBAL-BENCHMARK-REGISTRY-v1.0.0.csv`](catalog/global/GLOBAL-BENCHMARK-REGISTRY-v1.0.0.csv) |
+| Normalized trust catalogue | [`GLOBAL-NORMALIZED-TRUST-v1.0.0.csv`](catalog/global/GLOBAL-NORMALIZED-TRUST-v1.0.0.csv) |
+| Open evidence challenges | [`GLOBAL-OPEN-CHALLENGES-v1.0.0.csv`](catalog/global/GLOBAL-OPEN-CHALLENGES-v1.0.0.csv) |
+| Provenance and result policy | [`documentation/`](documentation/) |
+| Schemas | [`schemas/`](schemas/) |
+| Validation and generation tools | [`tools/`](tools/) |
+| Reproducible archive | **[v1.0.0 release](https://github.com/Lemoine-OR/LotSizingDataModel.Benchmarks/releases/tag/v1.0.0)** |
+| Deferred v2 programme | [`V2-DEFERRED-WORK-v1.0.0.csv`](catalog/global/V2-DEFERRED-WORK-v1.0.0.csv) |
 
-## Two canonical instance distributions
+## Evidence is deliberately conservative
 
-### 1. Pure instances
+An incumbent is not labelled optimal without proof. A complete solution is not labelled verified until the checker confirms feasibility and independently recomputes its objective. Missing evidence remains visible instead of being silently converted into confidence.
 
-`instances/` contains the problem data only. These files are appropriate for algorithm benchmarking because
-they contain no embedded answer.
+| Normalized trust status | Records |
+|---|---:|
+| `NO_REFERENCE_KNOWN` | 7,684 |
+| `LITERATURE_BEST_REPORTED` | 120 |
+| `CHECKER_VERIFIED_FEASIBLE` | 96 |
+| `REFERENCE_WITH_LOWER_BOUND` | 5 |
 
-### 2. Instances with reference information
+The 125 remaining evidence challenges consist of 120 complete-solution/checker tasks for Cattrysse and five primary-source lower-bound reconciliations for Trigeiro.
 
-`instances-with-reference/` contains the same problem plus the strongest known result metadata.
+## Reproducible lineage
 
-A reference may be:
+```text
+Original source
+      ↓
+Provenance and immutable source hash
+      ↓
+Lossless conversion to LotSizingDataModel XML
+      ↓
+Canonical fingerprint and global identity
+      ↓
+Reference evidence and independent validation
+```
 
-- `PROVEN_OPTIMAL`
-- `AUTHOR_BEST_KNOWN`
-- `LITERATURE_BEST_KNOWN`
-- `CURRENT_SOLVER_BEST`
-- `FEASIBLE_SOLUTION`
-- `LOWER_BOUND_ONLY`
-- `UNKNOWN`
+No benchmark, parameter, objective value or solution is invented. Missing information is recorded explicitly.
 
-A **complete solution is optional**. If only the best objective value is known, the objective is stored and
-`solution_available=false`.
+## Scope of v1.0.0
 
-## Complete solutions
+The public repository contains the 7,905 canonical XML instances, metadata, catalogues, schemas, validation reports and reproducibility tooling. Raw working archives, duplicated enriched copies, intermediate reports and build outputs are deliberately excluded.
 
-When a complete production plan is available, it is stored separately under `solutions/`.
-A solution is `VERIFIED` only when the LotSizingDataModel checker confirms feasibility **and** independently
-recomputes the declared objective.
+MULTILSB acquisition and normalization reached 120/120 source instances, but canonical admission remains deferred to v2.0 because shared production-family setup semantics require a separately reviewed extension to `LotSizingDataModel`. No model change is included in v1.0.0.
 
-## Naming
+---
 
-`LSDM_<source>_<type>_<periods>_<profile>_<id>.xml`
-
-Example:
-
-`LSDM_TD1996_MLCLSP_16_mixed_example-id.xml`
-
-The original source identifier is also stored in metadata; filenames are never the sole identity.
-
-## Initial benchmark families
-
-The bootstrap catalogue already includes Wagner–Whitin, Dixon–Silver, Eppen–Martin, Trigeiro–Thomas–McClain,
-Diaby et al., Diaby–Martel, Tempelmeier–Derstroff, Stadtler, Sürie, Dellaert–Jeunet, MULTILSB,
-Tempelmeier–Buschkühl, Afentakis–Gavish, Clark–Armentano, Armentano–Berretta–França, Maes–Van Wassenhove,
-Haase, Kimms, Fleischmann, Fleischmann–Meyr, Seeanner, Belvaux–Wolsey, CHES, industrial pharmaceutical
-instances, Willems-derived networks, CLSP-PM, stochastic timing benchmarks and MIPLIB-derived cases.
-
-See [`catalog/families.csv`](catalog/families.csv).
-
-## Project status
-
-**v1.0.0 — final scientific release of the v1 corpus**
-
-The validated registry contains **7,905 canonical instances across seven families**. Global identifiers are
-unique; the 50 historical identifier-collision groups are explicitly namespaced; exact duplicate fingerprint
-clusters and exact lineage edges are both zero; and the G30/G30b non-identity guard passes.
-
-The public repository contains the 7,905 canonical XML instances together with the code, schemas,
-documentation, final registry, trust catalogue, validation reports and reproducibility manifests. Duplicated
-enriched copies, raw working archives, intermediate reports and build outputs are deliberately excluded.
-
-The remaining 125 evidence challenges and 27 v2 workstreams are documented in
-`catalog/global/V2-DEFERRED-WORK-v1.0.0.csv`. MULTILSB remains deferred because its shared production-family
-setup semantics require a separately reviewed LotSizingDataModel extension.
-
-## Scientific principle
-
-A transformed instance is **not** assumed to be the original instance. A published incumbent is **not**
-called optimal without proof. A MIP representation is **not** treated as semantic source data unless the
-mapping is documented.
-
-That distinction is the core design rule of this library.
+<div align="center">
+  <strong>Start with the live catalogue</strong><br><br>
+  <a href="https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/"><img src="https://img.shields.io/badge/EXPLORE_7%2C905_INSTANCES-26C6DA?style=for-the-badge&logo=github&logoColor=071D43" alt="Explore 7,905 instances"></a>
+</div>
