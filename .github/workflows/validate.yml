@@ -18,3 +18,5 @@ jobs:
         run: python tools/coverage_report.py
       - name: Validate final v1 registry and trust catalogue
         run: python tools/validate_v1_release.py .
+      - name: Verify generated benchmark explorer
+        run: python tools/build_benchmark_portal.py --check
