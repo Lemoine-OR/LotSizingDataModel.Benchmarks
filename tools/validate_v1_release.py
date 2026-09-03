@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from pathlib import Path
 import csv
+import hashlib
 import sys
 
 root = Path(sys.argv[1] if len(sys.argv) > 1 else ".")
@@ -37,6 +38,23 @@ groups = {(r["family"], r["original_instance_id"]) for r in collisions}
 if len(collisions) != 100 or len(groups) != 50: errors.append("historical collisions")
 guard = (catalog / "GLOBAL-G30-G30B-NONIDENTITY-GUARD.csv").read_text(encoding="utf-8-sig")
 if "PASS_NON_IDENTITY_GUARD" not in guard: errors.append("G30/G30b guard")
+hash_failures = 0
+for row in registry:
+    marker = "\\benchmarks\\"
+    source_path = row["canonical_xml_path"]
+    offset = source_path.lower().find(marker)
+    if offset < 0:
+        hash_failures += 1
+        continue
+    relative = source_path[offset + 1:].replace("\\", "/")
+    local_path = root / Path(relative)
+    if not local_path.is_file():
+        hash_failures += 1
+        continue
+    digest = hashlib.sha256(local_path.read_bytes()).hexdigest().upper()
+    if digest != row["canonical_xml_sha256"].upper():
+        hash_failures += 1
+if hash_failures: errors.append(f"canonical XML hashes ({hash_failures} failures)")
 if errors:
     print("v1.0.0 validation failed: " + ", ".join(errors))
     raise SystemExit(1)
@@ -46,3 +64,4 @@ print("FAMILIES|7")
 print("COLLISIONS|50|100")
 print("CHALLENGES|125")
 print("V2_WORKSTREAMS|27")
+print("CANONICAL_XML_HASHES|7905|PASS")

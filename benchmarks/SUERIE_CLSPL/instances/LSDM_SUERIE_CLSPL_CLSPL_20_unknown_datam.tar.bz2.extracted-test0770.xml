@@ -1,0 +1,1700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lotSizingInstance xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" instanceId="SUERIE-CLSPL-test0770" name="test0770" createdBy="LotSizingDataModel Tempelmeier ecosystem converter" formatVersion="1.0">
+  <description>Converted from the official Suerie-Stadtler CLSPL benchmark data format.</description>
+  <sourceInformation>D:\Dev\LotSizingDataModel.Benchmarks\benchmarks\SUERIE_CLSPL\raw\materialized\datam.tar.bz2.extracted\test0770</sourceInformation>
+  <createdAtUtc>2026-09-01T20:34:25.77956Z</createdAtUtc>
+  <modifiedAtUtc>2026-09-01T20:34:25.77956Z</modifiedAtUtc>
+  <supplyChain planningHorizon="20">
+    <items>
+      <item name="Item 1" id="1" billOfMaterialsLevel="0" />
+      <item name="Item 2" id="2" billOfMaterialsLevel="0" />
+      <item name="Item 3" id="3" billOfMaterialsLevel="0" />
+      <item name="Item 4" id="4" billOfMaterialsLevel="0" />
+      <item name="Item 5" id="5" billOfMaterialsLevel="0" />
+      <item name="Item 6" id="6" billOfMaterialsLevel="0" />
+      <item name="Item 7" id="7" billOfMaterialsLevel="0" />
+      <item name="Item 8" id="8" billOfMaterialsLevel="0" />
+    </items>
+    <componentRequirements />
+    <plants>
+      <plant name="Benchmark plant" id="1">
+        <warehouse name="Benchmark plant warehouse" />
+        <workCenters>
+          <workCenter name="Resource 1" id="1">
+            <capacityConstraint>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+              <values>3525</values>
+            </capacityConstraint>
+            <additionalCapacity>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+              <values>53008</values>
+            </additionalCapacity>
+            <additionalCapacityCost>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+              <values>10000</values>
+            </additionalCapacityCost>
+          </workCenter>
+        </workCenters>
+      </plant>
+    </plants>
+    <standaloneWarehouses />
+    <suppliers />
+    <distributionCenters>
+      <distributionCenter name="External demand" id="1" />
+    </distributionCenters>
+    <transportResources />
+    <productionRoutings>
+      <productionRouting id="1" itemId="1" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="2" itemId="2" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="3" itemId="3" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="4" itemId="4" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="5" itemId="5" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="6" itemId="6" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="7" itemId="7" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="8" itemId="8" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+    </productionRoutings>
+    <productionCharacteristics>
+      <productionCharacteristic itemId="1">
+        <workCenter plantId="1" workCenterId="1" />
+        <unitCapacityConsumption>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+        </unitCapacityConsumption>
+        <setupTime>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+          <values>122</values>
+        </setupTime>
+        <fixedSetupCost>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+          <values>498</values>
+        </fixedSetupCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="2">
+        <workCenter plantId="1" workCenterId="1" />
+        <unitCapacityConsumption>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+        </unitCapacityConsumption>
+        <setupTime>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+          <values>113</values>
+        </setupTime>
+        <fixedSetupCost>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+          <values>522</values>
+        </fixedSetupCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="3">
+        <workCenter plantId="1" workCenterId="1" />
+        <unitCapacityConsumption>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+        </unitCapacityConsumption>
+        <setupTime>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+          <values>48</values>
+        </setupTime>
+        <fixedSetupCost>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+          <values>212</values>
+        </fixedSetupCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="4">
+        <workCenter plantId="1" workCenterId="1" />
+        <unitCapacityConsumption>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+        </unitCapacityConsumption>
+        <setupTime>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+          <values>30</values>
+        </setupTime>
+        <fixedSetupCost>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+          <values>112</values>
+        </fixedSetupCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="5">
+        <workCenter plantId="1" workCenterId="1" />
+        <unitCapacityConsumption>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+        </unitCapacityConsumption>
+        <setupTime>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+        </setupTime>
+        <fixedSetupCost>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+        </fixedSetupCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="6">
+        <workCenter plantId="1" workCenterId="1" />
+        <unitCapacityConsumption>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+        </unitCapacityConsumption>
+        <setupTime>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+          <values>14</values>
+        </setupTime>
+        <fixedSetupCost>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+        </fixedSetupCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="7">
+        <workCenter plantId="1" workCenterId="1" />
+        <unitCapacityConsumption>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+        </unitCapacityConsumption>
+        <setupTime>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+          <values>11</values>
+        </setupTime>
+        <fixedSetupCost>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+          <values>37</values>
+        </fixedSetupCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="8">
+        <workCenter plantId="1" workCenterId="1" />
+        <unitCapacityConsumption>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+        </unitCapacityConsumption>
+        <setupTime>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+          <values>5</values>
+        </setupTime>
+        <fixedSetupCost>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+          <values>75</values>
+        </fixedSetupCost>
+      </productionCharacteristic>
+    </productionCharacteristics>
+    <inventories>
+      <inventory itemId="1" initialInventory="0">
+        <warehouse kind="plantWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+          <values>1.01</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="2" initialInventory="0">
+        <warehouse kind="plantWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+          <values>1.06</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="3" initialInventory="0">
+        <warehouse kind="plantWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+          <values>0.97</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="4" initialInventory="0">
+        <warehouse kind="plantWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+          <values>0.9</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="5" initialInventory="0">
+        <warehouse kind="plantWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="6" initialInventory="0">
+        <warehouse kind="plantWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="7" initialInventory="0">
+        <warehouse kind="plantWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+          <values>1.1</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="8" initialInventory="0">
+        <warehouse kind="plantWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+          <values>1</values>
+        </unitUsageCost>
+      </inventory>
+    </inventories>
+    <transportCharacteristics />
+    <demands>
+      <demand itemId="1" distributionCenterId="1">
+        <quantities>505</quantities>
+        <quantities>350</quantities>
+        <quantities>675</quantities>
+        <quantities>480</quantities>
+        <quantities>958</quantities>
+        <quantities>1019</quantities>
+        <quantities>976</quantities>
+        <quantities>1009</quantities>
+        <quantities>1021</quantities>
+        <quantities>1002</quantities>
+        <quantities>938</quantities>
+        <quantities>1049</quantities>
+        <quantities>959</quantities>
+        <quantities>1069</quantities>
+        <quantities>1015</quantities>
+        <quantities>949</quantities>
+        <quantities>945</quantities>
+        <quantities>971</quantities>
+        <quantities>996</quantities>
+        <quantities>111</quantities>
+      </demand>
+      <demand itemId="2" distributionCenterId="1">
+        <quantities>428</quantities>
+        <quantities>536</quantities>
+        <quantities>293</quantities>
+        <quantities>582</quantities>
+        <quantities>977</quantities>
+        <quantities>1020</quantities>
+        <quantities>1068</quantities>
+        <quantities>984</quantities>
+        <quantities>1043</quantities>
+        <quantities>1062</quantities>
+        <quantities>1042</quantities>
+        <quantities>1000</quantities>
+        <quantities>980</quantities>
+        <quantities>1012</quantities>
+        <quantities>1042</quantities>
+        <quantities>957</quantities>
+        <quantities>1040</quantities>
+        <quantities>978</quantities>
+        <quantities>986</quantities>
+        <quantities>106</quantities>
+      </demand>
+      <demand itemId="3" distributionCenterId="1">
+        <quantities>175</quantities>
+        <quantities>314</quantities>
+        <quantities>0</quantities>
+        <quantities>184</quantities>
+        <quantities>284</quantities>
+        <quantities>339</quantities>
+        <quantities>275</quantities>
+        <quantities>317</quantities>
+        <quantities>291</quantities>
+        <quantities>304</quantities>
+        <quantities>287</quantities>
+        <quantities>307</quantities>
+        <quantities>306</quantities>
+        <quantities>283</quantities>
+        <quantities>319</quantities>
+        <quantities>305</quantities>
+        <quantities>302</quantities>
+        <quantities>313</quantities>
+        <quantities>330</quantities>
+        <quantities>98</quantities>
+      </demand>
+      <demand itemId="4" distributionCenterId="1">
+        <quantities>214</quantities>
+        <quantities>220</quantities>
+        <quantities>207</quantities>
+        <quantities>225</quantities>
+        <quantities>279</quantities>
+        <quantities>296</quantities>
+        <quantities>321</quantities>
+        <quantities>299</quantities>
+        <quantities>301</quantities>
+        <quantities>282</quantities>
+        <quantities>270</quantities>
+        <quantities>324</quantities>
+        <quantities>312</quantities>
+        <quantities>326</quantities>
+        <quantities>287</quantities>
+        <quantities>281</quantities>
+        <quantities>264</quantities>
+        <quantities>334</quantities>
+        <quantities>325</quantities>
+        <quantities>118</quantities>
+      </demand>
+      <demand itemId="5" distributionCenterId="1">
+        <quantities>96</quantities>
+        <quantities>111</quantities>
+        <quantities>92</quantities>
+        <quantities>123</quantities>
+        <quantities>101</quantities>
+        <quantities>118</quantities>
+        <quantities>101</quantities>
+        <quantities>76</quantities>
+        <quantities>108</quantities>
+        <quantities>91</quantities>
+        <quantities>110</quantities>
+        <quantities>80</quantities>
+        <quantities>87</quantities>
+        <quantities>117</quantities>
+        <quantities>122</quantities>
+        <quantities>91</quantities>
+        <quantities>78</quantities>
+        <quantities>76</quantities>
+        <quantities>83</quantities>
+        <quantities>112</quantities>
+      </demand>
+      <demand itemId="6" distributionCenterId="1">
+        <quantities>124</quantities>
+        <quantities>84</quantities>
+        <quantities>115</quantities>
+        <quantities>100</quantities>
+        <quantities>88</quantities>
+        <quantities>106</quantities>
+        <quantities>106</quantities>
+        <quantities>123</quantities>
+        <quantities>103</quantities>
+        <quantities>99</quantities>
+        <quantities>84</quantities>
+        <quantities>106</quantities>
+        <quantities>102</quantities>
+        <quantities>96</quantities>
+        <quantities>110</quantities>
+        <quantities>97</quantities>
+        <quantities>87</quantities>
+        <quantities>89</quantities>
+        <quantities>103</quantities>
+        <quantities>81</quantities>
+      </demand>
+      <demand itemId="7" distributionCenterId="1">
+        <quantities>87</quantities>
+        <quantities>109</quantities>
+        <quantities>0</quantities>
+        <quantities>76</quantities>
+        <quantities>77</quantities>
+        <quantities>94</quantities>
+        <quantities>94</quantities>
+        <quantities>75</quantities>
+        <quantities>110</quantities>
+        <quantities>108</quantities>
+        <quantities>119</quantities>
+        <quantities>97</quantities>
+        <quantities>111</quantities>
+        <quantities>120</quantities>
+        <quantities>92</quantities>
+        <quantities>102</quantities>
+        <quantities>116</quantities>
+        <quantities>104</quantities>
+        <quantities>103</quantities>
+        <quantities>83</quantities>
+      </demand>
+      <demand itemId="8" distributionCenterId="1">
+        <quantities>79</quantities>
+        <quantities>0</quantities>
+        <quantities>0</quantities>
+        <quantities>115</quantities>
+        <quantities>120</quantities>
+        <quantities>121</quantities>
+        <quantities>121</quantities>
+        <quantities>118</quantities>
+        <quantities>101</quantities>
+        <quantities>100</quantities>
+        <quantities>80</quantities>
+        <quantities>88</quantities>
+        <quantities>121</quantities>
+        <quantities>94</quantities>
+        <quantities>76</quantities>
+        <quantities>80</quantities>
+        <quantities>92</quantities>
+        <quantities>101</quantities>
+        <quantities>120</quantities>
+        <quantities>120</quantities>
+      </demand>
+    </demands>
+    <distributionCenterSourcings>
+      <distributionCenterSourcing distributionCenterId="1" itemId="1">
+        <warehouse kind="plantWarehouse" id="1" />
+      </distributionCenterSourcing>
+      <distributionCenterSourcing distributionCenterId="1" itemId="2">
+        <warehouse kind="plantWarehouse" id="1" />
+      </distributionCenterSourcing>
+      <distributionCenterSourcing distributionCenterId="1" itemId="3">
+        <warehouse kind="plantWarehouse" id="1" />
+      </distributionCenterSourcing>
+      <distributionCenterSourcing distributionCenterId="1" itemId="4">
+        <warehouse kind="plantWarehouse" id="1" />
+      </distributionCenterSourcing>
+      <distributionCenterSourcing distributionCenterId="1" itemId="5">
+        <warehouse kind="plantWarehouse" id="1" />
+      </distributionCenterSourcing>
+      <distributionCenterSourcing distributionCenterId="1" itemId="6">
+        <warehouse kind="plantWarehouse" id="1" />
+      </distributionCenterSourcing>
+      <distributionCenterSourcing distributionCenterId="1" itemId="7">
+        <warehouse kind="plantWarehouse" id="1" />
+      </distributionCenterSourcing>
+      <distributionCenterSourcing distributionCenterId="1" itemId="8">
+        <warehouse kind="plantWarehouse" id="1" />
+      </distributionCenterSourcing>
+    </distributionCenterSourcings>
+    <supplierDeliveries />
+  </supplyChain>
+  <productStructure declaredType="unknown" detectedType="independentItems" checkStatus="detectedOnly" hasCycle="false" maximumDepth="0" analyzerVersion="1.0" supplyChainFingerprint="SHA256-XML-1:6B0B891E5DB29B20F29B1394F85B4F8D0B9D0F3B1546CAE45534F2DA553FEBA6">
+    <rootItemIds>
+      <itemId>1</itemId>
+      <itemId>2</itemId>
+      <itemId>3</itemId>
+      <itemId>4</itemId>
+      <itemId>5</itemId>
+      <itemId>6</itemId>
+      <itemId>7</itemId>
+      <itemId>8</itemId>
+    </rootItemIds>
+    <leafItemIds>
+      <itemId>1</itemId>
+      <itemId>2</itemId>
+      <itemId>3</itemId>
+      <itemId>4</itemId>
+      <itemId>5</itemId>
+      <itemId>6</itemId>
+      <itemId>7</itemId>
+      <itemId>8</itemId>
+    </leafItemIds>
+    <sharedComponentItemIds />
+    <analyzedAtUtc>2026-09-01T20:34:25.779582Z</analyzedAtUtc>
+    <analysisComment />
+  </productStructure>
+  <problemClassification status="partiallyClassified" primaryProblemTypeCode="CLSP" primaryProblemTypeName="Capacitated lot-sizing problem" classifierVersion="1.0" catalogName="Standard lot-sizing problem taxonomy" catalogVersion="1.0" supplyChainFingerprint="SHA256-XML-1:6B0B891E5DB29B20F29B1394F85B4F8D0B9D0F3B1546CAE45534F2DA553FEBA6">
+    <features itemCount="8" planningHorizon="20" plantCount="1" workCenterCount="1" warehouseCount="1" supplierCount="0" distributionCenterCount="1" transportResourceCount="0" productStructureRelationshipCount="0" maximumProductStructureDepth="0" productStructureType="independentItems" hasDemand="true" hasDeterministicDemand="true" hasTimeVaryingDemand="true" hasInitialInventory="false" hasSafetyStockRequirements="false" hasBacklogging="false" hasLostSales="false" hasProduction="true" hasProductionCapacityConstraints="true" hasSharedProductionCapacity="true" hasTimeVaryingProductionCapacity="false" hasSetupCosts="true" hasSetupTimes="true" hasStartUpCosts="false" hasProductionLeadTimes="false" hasMinimumLotSizes="false" hasMaximumLotSizes="false" hasLotSizeMultiples="false" hasAdditionalProductionCapacity="true" hasAdditionalWarehouseCapacity="false" hasAdditionalTransportCapacity="false" hasPurchasing="false" hasSupplierCapacityConstraints="false" hasSupplierLeadTimes="false" hasTransportation="false" hasTransportCapacityConstraints="false" hasTransportLeadTimes="false" hasDistribution="true" hasWarehouseCapacityConstraints="false" isMultiSite="false" hasFinancialConstraints="false" hasMultipleObjectives="false" />
+    <classifiedAtUtc>2026-09-01T20:34:25.7797449Z</classifiedAtUtc>
+    <matches>
+      <knownProblemTypeMatch problemTypeCode="CLSP" problemTypeName="Capacitated lot-sizing problem" definitionVersion="1.0" matchKind="knownExtension" scope="completeProblem" score="0.8888888888888888">
+        <scopeDescription />
+        <affectedEntityKeys />
+        <additionalFeatureCodes>
+          <featureCode>hasAdditionalCapacity</featureCode>
+          <featureCode>hasSetupTimes</featureCode>
+        </additionalFeatureCodes>
+        <evidence>
+          <classificationEvidence ruleCode="CAPACITY.PRODUCTION_CAPACITATED" featureCode="HasProductionCapacityConstraints" satisfied="true" required="true" weight="1">
+            <description>Production is subject to at least one capacity constraint.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.DETERMINISTIC_DEMAND" featureCode="HasDeterministicDemand" satisfied="true" required="true" weight="1">
+            <description>Demand is represented deterministically.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.HAS_DEMAND" featureCode="HasDemand" satisfied="true" required="true" weight="1">
+            <description>The instance contains demand data.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.HAS_PRODUCTION" featureCode="HasProduction" satisfied="true" required="true" weight="1">
+            <description>The instance contains production decisions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.MULTI_PERIOD" featureCode="PlanningHorizon" satisfied="true" required="true" weight="1">
+            <description>The planning horizon contains more than one period.</description>
+            <expectedValue>1</expectedValue>
+            <observedValue>20</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="STRUCTURE.MULTI_ITEM" featureCode="IsMultiItem" satisfied="true" required="true" weight="1">
+            <description>The instance contains several items.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="STRUCTURE.SINGLE_LEVEL" featureCode="IsSingleLevel" satisfied="true" required="true" weight="1">
+            <description>The items are independent from a bill-of-materials perspective.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="CAPACITY.SHARED_PRODUCTION" featureCode="HasSharedProductionCapacity" satisfied="true" required="false" weight="1">
+            <description>Several production activities share at least one production capacity.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="CAPACITY.TIME_VARYING_PRODUCTION" featureCode="HasTimeVaryingProductionCapacity" satisfied="false" required="false" weight="1">
+            <description>At least one production capacity varies between planning periods.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.ADDITIONAL_CAPACITY" featureCode="HasAdditionalCapacity" satisfied="true" required="false" weight="0">
+            <description>Additional production, storage or transport capacity can be acquired.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment>The condition identifies an additional feature not included in the classical problem-family definition.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.BACKLOGGING" featureCode="HasBacklogging" satisfied="false" required="false" weight="0">
+            <description>Unmet demand may be carried to later periods.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.FINANCIAL_CONSTRAINTS" featureCode="HasFinancialConstraints" satisfied="false" required="false" weight="0">
+            <description>The instance contains explicit financial constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.LOST_SALES" featureCode="HasLostSales" satisfied="false" required="false" weight="0">
+            <description>Demand may be permanently lost.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.LOT_SIZE_MULTIPLES" featureCode="HasLotSizeMultiples" satisfied="false" required="false" weight="0">
+            <description>Production quantities must respect lot-size multiples.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MAXIMUM_LOT_SIZES" featureCode="HasMaximumLotSizes" satisfied="false" required="false" weight="0">
+            <description>The instance contains maximum lot-size restrictions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MINIMUM_LOT_SIZES" featureCode="HasMinimumLotSizes" satisfied="false" required="false" weight="0">
+            <description>The instance contains minimum lot-size restrictions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MULTIPLE_OBJECTIVES" featureCode="HasMultipleObjectives" satisfied="false" required="false" weight="0">
+            <description>The instance contains several objective criteria.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MULTI_SITE" featureCode="IsMultiSite" satisfied="false" required="false" weight="0">
+            <description>The instance contains several physical production or storage sites.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.PRODUCTION_LEAD_TIMES" featureCode="HasProductionLeadTimes" satisfied="false" required="false" weight="0">
+            <description>Production lead times are represented.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.PURCHASING" featureCode="HasPurchasing" satisfied="false" required="false" weight="0">
+            <description>The instance contains external purchasing decisions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SAFETY_STOCK" featureCode="HasSafetyStockRequirements" satisfied="false" required="false" weight="0">
+            <description>The instance contains safety-stock requirements.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SETUP_TIMES" featureCode="HasSetupTimes" satisfied="true" required="false" weight="0">
+            <description>Setups consume production capacity.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment>The condition identifies an additional feature not included in the classical problem-family definition.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.START_UP_COSTS" featureCode="HasStartUpCosts" satisfied="false" required="false" weight="0">
+            <description>The model distinguishes start-up costs from ordinary setup costs.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SUPPLIER_CAPACITY" featureCode="HasSupplierCapacityConstraints" satisfied="false" required="false" weight="0">
+            <description>Suppliers are subject to capacity constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SUPPLIER_LEAD_TIMES" featureCode="HasSupplierLeadTimes" satisfied="false" required="false" weight="0">
+            <description>Supplier delivery lead times are represented.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.TRANSPORTATION" featureCode="HasTransportation" satisfied="false" required="false" weight="0">
+            <description>The instance contains transportation decisions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.TRANSPORT_CAPACITY" featureCode="HasTransportCapacityConstraints" satisfied="false" required="false" weight="0">
+            <description>Transportation is subject to capacity constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.TRANSPORT_LEAD_TIMES" featureCode="HasTransportLeadTimes" satisfied="false" required="false" weight="0">
+            <description>Transport lead times are represented.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.WAREHOUSE_CAPACITY" featureCode="HasWarehouseCapacityConstraints" satisfied="false" required="false" weight="0">
+            <description>Storage is subject to warehouse-capacity constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+        </evidence>
+        <comment />
+      </knownProblemTypeMatch>
+      <knownProblemTypeMatch problemTypeCode="MLCLSP" problemTypeName="Multi-level capacitated lot-sizing problem" definitionVersion="1.0" matchKind="closestKnownFamily" scope="completeProblem" score="0.7777777777777778">
+        <scopeDescription />
+        <affectedEntityKeys />
+        <additionalFeatureCodes>
+          <featureCode>hasAdditionalCapacity</featureCode>
+          <featureCode>hasSetupTimes</featureCode>
+        </additionalFeatureCodes>
+        <evidence>
+          <classificationEvidence ruleCode="CAPACITY.PRODUCTION_CAPACITATED" featureCode="HasProductionCapacityConstraints" satisfied="true" required="true" weight="1">
+            <description>Production is subject to at least one capacity constraint.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.DETERMINISTIC_DEMAND" featureCode="HasDeterministicDemand" satisfied="true" required="true" weight="1">
+            <description>Demand is represented deterministically.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.HAS_DEMAND" featureCode="HasDemand" satisfied="true" required="true" weight="1">
+            <description>The instance contains demand data.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.HAS_PRODUCTION" featureCode="HasProduction" satisfied="true" required="true" weight="1">
+            <description>The instance contains production decisions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.MULTI_PERIOD" featureCode="PlanningHorizon" satisfied="true" required="true" weight="1">
+            <description>The planning horizon contains more than one period.</description>
+            <expectedValue>1</expectedValue>
+            <observedValue>20</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="STRUCTURE.MULTI_ITEM" featureCode="IsMultiItem" satisfied="true" required="true" weight="1">
+            <description>The instance contains several items.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="STRUCTURE.MULTI_LEVEL" featureCode="IsMultiLevel" satisfied="false" required="true" weight="1">
+            <description>The instance contains at least one bill-of-materials relationship.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="CAPACITY.SHARED_PRODUCTION" featureCode="HasSharedProductionCapacity" satisfied="true" required="false" weight="1">
+            <description>Several production activities share at least one production capacity.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="CAPACITY.TIME_VARYING_PRODUCTION" featureCode="HasTimeVaryingProductionCapacity" satisfied="false" required="false" weight="1">
+            <description>At least one production capacity varies between planning periods.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.ADDITIONAL_CAPACITY" featureCode="HasAdditionalCapacity" satisfied="true" required="false" weight="0">
+            <description>Additional production, storage or transport capacity can be acquired.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment>The condition identifies an additional feature not included in the classical problem-family definition.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.BACKLOGGING" featureCode="HasBacklogging" satisfied="false" required="false" weight="0">
+            <description>Unmet demand may be carried to later periods.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.FINANCIAL_CONSTRAINTS" featureCode="HasFinancialConstraints" satisfied="false" required="false" weight="0">
+            <description>The instance contains explicit financial constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.LOST_SALES" featureCode="HasLostSales" satisfied="false" required="false" weight="0">
+            <description>Demand may be permanently lost.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.LOT_SIZE_MULTIPLES" featureCode="HasLotSizeMultiples" satisfied="false" required="false" weight="0">
+            <description>Production quantities must respect lot-size multiples.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MAXIMUM_LOT_SIZES" featureCode="HasMaximumLotSizes" satisfied="false" required="false" weight="0">
+            <description>The instance contains maximum lot-size restrictions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MINIMUM_LOT_SIZES" featureCode="HasMinimumLotSizes" satisfied="false" required="false" weight="0">
+            <description>The instance contains minimum lot-size restrictions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MULTIPLE_OBJECTIVES" featureCode="HasMultipleObjectives" satisfied="false" required="false" weight="0">
+            <description>The instance contains several objective criteria.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MULTI_SITE" featureCode="IsMultiSite" satisfied="false" required="false" weight="0">
+            <description>The instance contains several physical production or storage sites.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.PURCHASING" featureCode="HasPurchasing" satisfied="false" required="false" weight="0">
+            <description>The instance contains external purchasing decisions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SAFETY_STOCK" featureCode="HasSafetyStockRequirements" satisfied="false" required="false" weight="0">
+            <description>The instance contains safety-stock requirements.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SETUP_TIMES" featureCode="HasSetupTimes" satisfied="true" required="false" weight="0">
+            <description>Setups consume production capacity.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment>The condition identifies an additional feature not included in the classical problem-family definition.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.START_UP_COSTS" featureCode="HasStartUpCosts" satisfied="false" required="false" weight="0">
+            <description>The model distinguishes start-up costs from ordinary setup costs.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SUPPLIER_CAPACITY" featureCode="HasSupplierCapacityConstraints" satisfied="false" required="false" weight="0">
+            <description>Suppliers are subject to capacity constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SUPPLIER_LEAD_TIMES" featureCode="HasSupplierLeadTimes" satisfied="false" required="false" weight="0">
+            <description>Supplier delivery lead times are represented.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.TRANSPORTATION" featureCode="HasTransportation" satisfied="false" required="false" weight="0">
+            <description>The instance contains transportation decisions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.TRANSPORT_CAPACITY" featureCode="HasTransportCapacityConstraints" satisfied="false" required="false" weight="0">
+            <description>Transportation is subject to capacity constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.TRANSPORT_LEAD_TIMES" featureCode="HasTransportLeadTimes" satisfied="false" required="false" weight="0">
+            <description>Transport lead times are represented.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.WAREHOUSE_CAPACITY" featureCode="HasWarehouseCapacityConstraints" satisfied="false" required="false" weight="0">
+            <description>Storage is subject to warehouse-capacity constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+        </evidence>
+        <comment />
+      </knownProblemTypeMatch>
+      <knownProblemTypeMatch problemTypeCode="LS-C" problemTypeName="Capacitated single-item lot-sizing problem" definitionVersion="1.0" matchKind="closestKnownFamily" scope="completeProblem" score="0.75">
+        <scopeDescription />
+        <affectedEntityKeys />
+        <additionalFeatureCodes>
+          <featureCode>hasAdditionalCapacity</featureCode>
+          <featureCode>hasSetupTimes</featureCode>
+        </additionalFeatureCodes>
+        <evidence>
+          <classificationEvidence ruleCode="CAPACITY.PRODUCTION_CAPACITATED" featureCode="HasProductionCapacityConstraints" satisfied="true" required="true" weight="1">
+            <description>Production is subject to at least one capacity constraint.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.DETERMINISTIC_DEMAND" featureCode="HasDeterministicDemand" satisfied="true" required="true" weight="1">
+            <description>Demand is represented deterministically.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.HAS_DEMAND" featureCode="HasDemand" satisfied="true" required="true" weight="1">
+            <description>The instance contains demand data.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.HAS_PRODUCTION" featureCode="HasProduction" satisfied="true" required="true" weight="1">
+            <description>The instance contains production decisions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.MULTI_PERIOD" featureCode="PlanningHorizon" satisfied="true" required="true" weight="1">
+            <description>The planning horizon contains more than one period.</description>
+            <expectedValue>1</expectedValue>
+            <observedValue>20</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="STRUCTURE.SINGLE_ITEM" featureCode="IsSingleItem" satisfied="false" required="true" weight="1">
+            <description>The instance contains exactly one item.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="STRUCTURE.SINGLE_LEVEL" featureCode="IsSingleLevel" satisfied="true" required="true" weight="1">
+            <description>The items are independent from a bill-of-materials perspective.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="CAPACITY.TIME_VARYING_PRODUCTION" featureCode="HasTimeVaryingProductionCapacity" satisfied="false" required="false" weight="1">
+            <description>At least one production capacity varies between planning periods.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.ADDITIONAL_CAPACITY" featureCode="HasAdditionalCapacity" satisfied="true" required="false" weight="0">
+            <description>Additional production, storage or transport capacity can be acquired.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment>The condition identifies an additional feature not included in the classical problem-family definition.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.BACKLOGGING" featureCode="HasBacklogging" satisfied="false" required="false" weight="0">
+            <description>Unmet demand may be carried to later periods.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.FINANCIAL_CONSTRAINTS" featureCode="HasFinancialConstraints" satisfied="false" required="false" weight="0">
+            <description>The instance contains explicit financial constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.LOST_SALES" featureCode="HasLostSales" satisfied="false" required="false" weight="0">
+            <description>Demand may be permanently lost.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.LOT_SIZE_MULTIPLES" featureCode="HasLotSizeMultiples" satisfied="false" required="false" weight="0">
+            <description>Production quantities must respect lot-size multiples.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MAXIMUM_LOT_SIZES" featureCode="HasMaximumLotSizes" satisfied="false" required="false" weight="0">
+            <description>The instance contains maximum lot-size restrictions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MINIMUM_LOT_SIZES" featureCode="HasMinimumLotSizes" satisfied="false" required="false" weight="0">
+            <description>The instance contains minimum lot-size restrictions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MULTIPLE_OBJECTIVES" featureCode="HasMultipleObjectives" satisfied="false" required="false" weight="0">
+            <description>The instance contains several objective criteria.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MULTI_SITE" featureCode="IsMultiSite" satisfied="false" required="false" weight="0">
+            <description>The instance contains several physical production or storage sites.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.PRODUCTION_LEAD_TIMES" featureCode="HasProductionLeadTimes" satisfied="false" required="false" weight="0">
+            <description>Production lead times are represented.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.PURCHASING" featureCode="HasPurchasing" satisfied="false" required="false" weight="0">
+            <description>The instance contains external purchasing decisions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SAFETY_STOCK" featureCode="HasSafetyStockRequirements" satisfied="false" required="false" weight="0">
+            <description>The instance contains safety-stock requirements.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SETUP_TIMES" featureCode="HasSetupTimes" satisfied="true" required="false" weight="0">
+            <description>Setups consume production capacity.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment>The condition identifies an additional feature not included in the classical problem-family definition.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.START_UP_COSTS" featureCode="HasStartUpCosts" satisfied="false" required="false" weight="0">
+            <description>The model distinguishes start-up costs from ordinary setup costs.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SUPPLIER_CAPACITY" featureCode="HasSupplierCapacityConstraints" satisfied="false" required="false" weight="0">
+            <description>Suppliers are subject to capacity constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SUPPLIER_LEAD_TIMES" featureCode="HasSupplierLeadTimes" satisfied="false" required="false" weight="0">
+            <description>Supplier delivery lead times are represented.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.TRANSPORTATION" featureCode="HasTransportation" satisfied="false" required="false" weight="0">
+            <description>The instance contains transportation decisions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.TRANSPORT_CAPACITY" featureCode="HasTransportCapacityConstraints" satisfied="false" required="false" weight="0">
+            <description>Transportation is subject to capacity constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.TRANSPORT_LEAD_TIMES" featureCode="HasTransportLeadTimes" satisfied="false" required="false" weight="0">
+            <description>Transport lead times are represented.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.WAREHOUSE_CAPACITY" featureCode="HasWarehouseCapacityConstraints" satisfied="false" required="false" weight="0">
+            <description>Storage is subject to warehouse-capacity constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+        </evidence>
+        <comment />
+      </knownProblemTypeMatch>
+    </matches>
+    <unclassifiedFeatureCodes>
+      <featureCode>hasAdditionalCapacity</featureCode>
+      <featureCode>hasSetupTimes</featureCode>
+    </unclassifiedFeatureCodes>
+    <warnings />
+    <errors />
+    <comment />
+  </problemClassification>
+  <tags>
+    <tag>SUERIE_CLSPL</tag>
+    <tag>CLSPL</tag>
+    <tag>Official benchmark source</tag>
+  </tags>
+  <comment>The source model has nonnegative unbounded overtime. LotSizingDataModel requires a finite AdditionalCapacity upper bound; the converter uses a mathematically conservative horizon-demand-derived technical bound intended never to bind.</comment>
+</lotSizingInstance>

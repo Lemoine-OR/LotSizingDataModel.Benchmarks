@@ -6,6 +6,8 @@ Thumbs.db
 
 # Heavy instance payloads are released only through an explicit, reviewed data publication.
 benchmarks/**/*.xml
+!benchmarks/**/instances/*.xml
+!benchmarks/**/instances/**/*.xml
 benchmarks/**/raw/*
 !benchmarks/**/raw/.gitkeep
 

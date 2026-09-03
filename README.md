@@ -92,10 +92,9 @@ The validated registry contains **7,905 canonical instances across seven familie
 unique; the 50 historical identifier-collision groups are explicitly namespaced; exact duplicate fingerprint
 clusters and exact lineage edges are both zero; and the G30/G30b non-identity guard passes.
 
-The public repository contains the code, schemas, documentation, final registry, trust catalogue, validation
-reports and reproducibility manifests. Benchmark payloads are not committed until their upstream licence or
-redistribution permission is documented family by family. Their absence from GitHub does not change the
-validated local corpus or its registry.
+The public repository contains the 7,905 canonical XML instances together with the code, schemas,
+documentation, final registry, trust catalogue, validation reports and reproducibility manifests. Duplicated
+enriched copies, raw working archives, intermediate reports and build outputs are deliberately excluded.
 
 The remaining 125 evidence challenges and 27 v2 workstreams are documented in
 `catalog/global/V2-DEFERRED-WORK-v1.0.0.csv`. MULTILSB remains deferred because its shared production-family

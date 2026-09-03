@@ -1,0 +1,5070 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lotSizingInstance xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" instanceId="DJ-6" name="ph2in06st1de06" createdBy="LotSizingDataModel Dellaert–Jeunet importer" formatVersion="1.0">
+  <description>Imported Dellaert–Jeunet lot-sizing benchmark instance. Source identifier: 6. Declared instance type: Middle. Declared BOM type: Assembly.</description>
+  <sourceInformation>Format: Dellaert–Jeunet XML
+Source instance ID: 6
+Source instance name: ph2in06st1de06
+Source: ph2in06st1de06.xml
+Reference: Nico Dellaert; Jully Jeunet. (2000). Solving large unconstrained multilevel lot-sizing problems using a hybrid genetic algorithm. International Journal of Production Research, vol. 38, n°5. pp. 1083-1099. DOI: 10.1080/002075400189031</sourceInformation>
+  <createdAtUtc>2026-08-06T15:02:29.4093478Z</createdAtUtc>
+  <modifiedAtUtc>2026-08-06T15:02:29.4093478Z</modifiedAtUtc>
+  <supplyChain planningHorizon="24">
+    <items>
+      <item name="Item 1" id="1" billOfMaterialsLevel="0" />
+      <item name="Item 2" id="2" billOfMaterialsLevel="1" />
+      <item name="Item 3" id="3" billOfMaterialsLevel="1" />
+      <item name="Item 4" id="4" billOfMaterialsLevel="1" />
+      <item name="Item 5" id="5" billOfMaterialsLevel="1" />
+      <item name="Item 6" id="6" billOfMaterialsLevel="2" />
+      <item name="Item 7" id="7" billOfMaterialsLevel="2" />
+      <item name="Item 8" id="8" billOfMaterialsLevel="2" />
+      <item name="Item 9" id="9" billOfMaterialsLevel="2" />
+      <item name="Item 10" id="10" billOfMaterialsLevel="2" />
+      <item name="Item 11" id="11" billOfMaterialsLevel="2" />
+      <item name="Item 12" id="12" billOfMaterialsLevel="2" />
+      <item name="Item 13" id="13" billOfMaterialsLevel="2" />
+      <item name="Item 14" id="14" billOfMaterialsLevel="2" />
+      <item name="Item 15" id="15" billOfMaterialsLevel="2" />
+      <item name="Item 16" id="16" billOfMaterialsLevel="3" />
+      <item name="Item 17" id="17" billOfMaterialsLevel="3" />
+      <item name="Item 18" id="18" billOfMaterialsLevel="3" />
+      <item name="Item 19" id="19" billOfMaterialsLevel="3" />
+      <item name="Item 20" id="20" billOfMaterialsLevel="3" />
+      <item name="Item 21" id="21" billOfMaterialsLevel="3" />
+      <item name="Item 22" id="22" billOfMaterialsLevel="3" />
+      <item name="Item 23" id="23" billOfMaterialsLevel="3" />
+      <item name="Item 24" id="24" billOfMaterialsLevel="3" />
+      <item name="Item 25" id="25" billOfMaterialsLevel="3" />
+      <item name="Item 26" id="26" billOfMaterialsLevel="3" />
+      <item name="Item 27" id="27" billOfMaterialsLevel="3" />
+      <item name="Item 28" id="28" billOfMaterialsLevel="3" />
+      <item name="Item 29" id="29" billOfMaterialsLevel="3" />
+      <item name="Item 30" id="30" billOfMaterialsLevel="3" />
+      <item name="Item 31" id="31" billOfMaterialsLevel="3" />
+      <item name="Item 32" id="32" billOfMaterialsLevel="3" />
+      <item name="Item 33" id="33" billOfMaterialsLevel="3" />
+      <item name="Item 34" id="34" billOfMaterialsLevel="3" />
+      <item name="Item 35" id="35" billOfMaterialsLevel="4" />
+      <item name="Item 36" id="36" billOfMaterialsLevel="4" />
+      <item name="Item 37" id="37" billOfMaterialsLevel="4" />
+      <item name="Item 38" id="38" billOfMaterialsLevel="4" />
+      <item name="Item 39" id="39" billOfMaterialsLevel="4" />
+      <item name="Item 40" id="40" billOfMaterialsLevel="4" />
+      <item name="Item 41" id="41" billOfMaterialsLevel="4" />
+      <item name="Item 42" id="42" billOfMaterialsLevel="4" />
+      <item name="Item 43" id="43" billOfMaterialsLevel="4" />
+      <item name="Item 44" id="44" billOfMaterialsLevel="4" />
+      <item name="Item 45" id="45" billOfMaterialsLevel="4" />
+      <item name="Item 46" id="46" billOfMaterialsLevel="4" />
+      <item name="Item 47" id="47" billOfMaterialsLevel="4" />
+      <item name="Item 48" id="48" billOfMaterialsLevel="4" />
+      <item name="Item 49" id="49" billOfMaterialsLevel="4" />
+      <item name="Item 50" id="50" billOfMaterialsLevel="4" />
+    </items>
+    <componentRequirements>
+      <componentRequirement parentItemId="1" componentItemId="2" quantity="1" />
+      <componentRequirement parentItemId="1" componentItemId="3" quantity="1" />
+      <componentRequirement parentItemId="1" componentItemId="4" quantity="1" />
+      <componentRequirement parentItemId="1" componentItemId="5" quantity="1" />
+      <componentRequirement parentItemId="2" componentItemId="6" quantity="1" />
+      <componentRequirement parentItemId="2" componentItemId="11" quantity="1" />
+      <componentRequirement parentItemId="3" componentItemId="7" quantity="1" />
+      <componentRequirement parentItemId="3" componentItemId="8" quantity="1" />
+      <componentRequirement parentItemId="4" componentItemId="9" quantity="1" />
+      <componentRequirement parentItemId="4" componentItemId="10" quantity="1" />
+      <componentRequirement parentItemId="4" componentItemId="12" quantity="1" />
+      <componentRequirement parentItemId="5" componentItemId="13" quantity="1" />
+      <componentRequirement parentItemId="5" componentItemId="14" quantity="1" />
+      <componentRequirement parentItemId="5" componentItemId="15" quantity="1" />
+      <componentRequirement parentItemId="6" componentItemId="16" quantity="1" />
+      <componentRequirement parentItemId="6" componentItemId="17" quantity="1" />
+      <componentRequirement parentItemId="7" componentItemId="18" quantity="1" />
+      <componentRequirement parentItemId="7" componentItemId="19" quantity="1" />
+      <componentRequirement parentItemId="8" componentItemId="22" quantity="1" />
+      <componentRequirement parentItemId="8" componentItemId="23" quantity="1" />
+      <componentRequirement parentItemId="9" componentItemId="20" quantity="1" />
+      <componentRequirement parentItemId="9" componentItemId="21" quantity="1" />
+      <componentRequirement parentItemId="10" componentItemId="26" quantity="1" />
+      <componentRequirement parentItemId="10" componentItemId="31" quantity="1" />
+      <componentRequirement parentItemId="12" componentItemId="24" quantity="1" />
+      <componentRequirement parentItemId="12" componentItemId="25" quantity="1" />
+      <componentRequirement parentItemId="13" componentItemId="27" quantity="1" />
+      <componentRequirement parentItemId="13" componentItemId="28" quantity="1" />
+      <componentRequirement parentItemId="14" componentItemId="29" quantity="1" />
+      <componentRequirement parentItemId="14" componentItemId="30" quantity="1" />
+      <componentRequirement parentItemId="15" componentItemId="32" quantity="1" />
+      <componentRequirement parentItemId="15" componentItemId="33" quantity="1" />
+      <componentRequirement parentItemId="15" componentItemId="34" quantity="1" />
+      <componentRequirement parentItemId="16" componentItemId="35" quantity="1" />
+      <componentRequirement parentItemId="16" componentItemId="36" quantity="1" />
+      <componentRequirement parentItemId="16" componentItemId="37" quantity="1" />
+      <componentRequirement parentItemId="17" componentItemId="38" quantity="1" />
+      <componentRequirement parentItemId="17" componentItemId="39" quantity="1" />
+      <componentRequirement parentItemId="19" componentItemId="40" quantity="1" />
+      <componentRequirement parentItemId="19" componentItemId="41" quantity="1" />
+      <componentRequirement parentItemId="20" componentItemId="42" quantity="1" />
+      <componentRequirement parentItemId="20" componentItemId="43" quantity="1" />
+      <componentRequirement parentItemId="24" componentItemId="44" quantity="1" />
+      <componentRequirement parentItemId="24" componentItemId="45" quantity="1" />
+      <componentRequirement parentItemId="27" componentItemId="46" quantity="1" />
+      <componentRequirement parentItemId="27" componentItemId="47" quantity="1" />
+      <componentRequirement parentItemId="29" componentItemId="48" quantity="1" />
+      <componentRequirement parentItemId="29" componentItemId="49" quantity="1" />
+      <componentRequirement parentItemId="30" componentItemId="50" quantity="1" />
+    </componentRequirements>
+    <plants>
+      <plant name="Dellaert–Jeunet synthetic plant" id="1">
+        <warehouse name="Dellaert–Jeunet plant warehouse" />
+        <workCenters>
+          <workCenter name="Dellaert–Jeunet production resource" id="1" />
+        </workCenters>
+      </plant>
+    </plants>
+    <standaloneWarehouses>
+      <standaloneWarehouse name="Dellaert–Jeunet inventory" id="1" />
+    </standaloneWarehouses>
+    <suppliers />
+    <distributionCenters>
+      <distributionCenter name="Dellaert–Jeunet external demand" id="1" />
+    </distributionCenters>
+    <transportResources />
+    <productionRoutings>
+      <productionRouting id="1" itemId="1" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="2" itemId="2" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="3" itemId="3" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="4" itemId="4" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="5" itemId="5" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="6" itemId="6" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="7" itemId="7" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="8" itemId="8" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="9" itemId="9" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="10" itemId="10" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="11" itemId="11" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="12" itemId="12" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="13" itemId="13" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="14" itemId="14" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="15" itemId="15" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="16" itemId="16" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="17" itemId="17" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="18" itemId="18" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="19" itemId="19" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="20" itemId="20" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="21" itemId="21" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="22" itemId="22" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="23" itemId="23" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="24" itemId="24" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="25" itemId="25" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="26" itemId="26" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="27" itemId="27" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="28" itemId="28" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="29" itemId="29" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="30" itemId="30" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="31" itemId="31" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="32" itemId="32" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="33" itemId="33" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="34" itemId="34" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="35" itemId="35" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="36" itemId="36" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="37" itemId="37" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="38" itemId="38" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="39" itemId="39" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="40" itemId="40" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="41" itemId="41" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="42" itemId="42" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="43" itemId="43" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="44" itemId="44" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="45" itemId="45" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="46" itemId="46" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="47" itemId="47" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="48" itemId="48" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="49" itemId="49" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+      <productionRouting id="50" itemId="50" plantId="1" leadTime="0">
+        <workCenters>
+          <workCenterReference plantId="1" workCenterId="1" />
+        </workCenters>
+      </productionRouting>
+    </productionRoutings>
+    <productionCharacteristics>
+      <productionCharacteristic itemId="1">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+          <values>180</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="2">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="3">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+          <values>800</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="4">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+          <values>410</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="5">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+          <values>500</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="6">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+          <values>750</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="7">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+          <values>530</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="8">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+          <values>710</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="9">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+          <values>880</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="10">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="11">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="12">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+          <values>930</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="13">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+          <values>740</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="14">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+          <values>940</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="15">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="16">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+          <values>680</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="17">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+          <values>360</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="18">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="19">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+          <values>440</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="20">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+          <values>220</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="21">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+          <values>200</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="22">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+          <values>400</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="23">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+          <values>850</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="24">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+          <values>60</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="25">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+          <values>140</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="26">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+          <values>860</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="27">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+          <values>120</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="28">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+          <values>300</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="29">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+          <values>840</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="30">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+          <values>50</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="31">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="32">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+          <values>170</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="33">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+          <values>560</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="34">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+          <values>570</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="35">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+          <values>720</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="36">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+          <values>380</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="37">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+          <values>230</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="38">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+          <values>100</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="39">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+          <values>830</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="40">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="41">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+          <values>490</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="42">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+          <values>470</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="43">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+          <values>600</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="44">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+          <values>920</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="45">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+          <values>280</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="46">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+          <values>910</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="47">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+          <values>690</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="48">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+          <values>310</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="49">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+          <values>210</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+      <productionCharacteristic itemId="50">
+        <workCenter plantId="1" workCenterId="1" />
+        <fixedSetupCost>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+          <values>150</values>
+        </fixedSetupCost>
+        <unitUsageCost>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+          <values>0</values>
+        </unitUsageCost>
+      </productionCharacteristic>
+    </productionCharacteristics>
+    <inventories>
+      <inventory itemId="1" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+          <values>102.8</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="2" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+          <values>17.88</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="3" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+          <values>17.34</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="4" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+          <values>30.77</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="5" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+          <values>34.63</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="6" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+          <values>12.36</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="7" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+          <values>7.89</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="8" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+          <values>5.61</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="9" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+          <values>13.93</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="10" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+          <values>6.34</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="11" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+          <values>1.66</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="12" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+          <values>9.46</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="13" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+          <values>10.19</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="14" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+          <values>15</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="15" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+          <values>6.72</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="16" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+          <values>4.78</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="17" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+          <values>7.34</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="18" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+          <values>0.44</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="19" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+          <values>3.95</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="20" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+          <values>7.52</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="21" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+          <values>2.65</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="22" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+          <values>2.02</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="23" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+          <values>2.35</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="24" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+          <values>4.29</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="25" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+          <values>2.69</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="26" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+          <values>1.49</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="27" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+          <values>6.71</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="28" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+          <values>2.57</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="29" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+          <values>6.21</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="30" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+          <values>6.27</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="31" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+          <values>3.55</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="32" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+          <values>2.18</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="33" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+          <values>0.88</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="34" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+          <values>1.73</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="35" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+          <values>1.55</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="36" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+          <values>1.36</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="37" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+          <values>0.92</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="38" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+          <values>0.42</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="39" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+          <values>3.3</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="40" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+          <values>0.35</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="41" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+          <values>1.95</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="42" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+          <values>2.6</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="43" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+          <values>3.99</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="44" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+          <values>3.04</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="45" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+          <values>0.73</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="46" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+          <values>2.46</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="47" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+          <values>2.07</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="48" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+          <values>2.83</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="49" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+          <values>2.63</values>
+        </unitUsageCost>
+      </inventory>
+      <inventory itemId="50" initialInventory="0">
+        <warehouse kind="standaloneWarehouse" id="1" />
+        <inventoryBalanceRule />
+        <unitUsageCost>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+          <values>3.67</values>
+        </unitUsageCost>
+      </inventory>
+    </inventories>
+    <transportCharacteristics />
+    <demands>
+      <demand itemId="1" distributionCenterId="1">
+        <quantities>20</quantities>
+        <quantities>150</quantities>
+        <quantities>10</quantities>
+        <quantities>160</quantities>
+        <quantities>20</quantities>
+        <quantities>75</quantities>
+        <quantities>165</quantities>
+        <quantities>75</quantities>
+        <quantities>165</quantities>
+        <quantities>175</quantities>
+        <quantities>120</quantities>
+        <quantities>30</quantities>
+        <quantities>85</quantities>
+        <quantities>125</quantities>
+        <quantities>105</quantities>
+        <quantities>35</quantities>
+        <quantities>85</quantities>
+        <quantities>115</quantities>
+        <quantities>35</quantities>
+        <quantities>70</quantities>
+        <quantities>85</quantities>
+        <quantities>25</quantities>
+        <quantities>50</quantities>
+        <quantities>5</quantities>
+      </demand>
+    </demands>
+    <distributionCenterSourcings />
+    <supplierDeliveries />
+  </supplyChain>
+  <productStructure declaredType="assembly" detectedType="assembly" checkStatus="declaredAndConfirmed" hasCycle="false" maximumDepth="4" analyzerVersion="1.0" supplyChainFingerprint="SHA256-XML-1:321EDD55FAF586BA16370B38D2F6244AD73D00A877C3AB68C18C131CD6DEBB1D">
+    <rootItemIds>
+      <itemId>1</itemId>
+    </rootItemIds>
+    <leafItemIds>
+      <itemId>11</itemId>
+      <itemId>18</itemId>
+      <itemId>21</itemId>
+      <itemId>22</itemId>
+      <itemId>23</itemId>
+      <itemId>25</itemId>
+      <itemId>26</itemId>
+      <itemId>28</itemId>
+      <itemId>31</itemId>
+      <itemId>32</itemId>
+      <itemId>33</itemId>
+      <itemId>34</itemId>
+      <itemId>35</itemId>
+      <itemId>36</itemId>
+      <itemId>37</itemId>
+      <itemId>38</itemId>
+      <itemId>39</itemId>
+      <itemId>40</itemId>
+      <itemId>41</itemId>
+      <itemId>42</itemId>
+      <itemId>43</itemId>
+      <itemId>44</itemId>
+      <itemId>45</itemId>
+      <itemId>46</itemId>
+      <itemId>47</itemId>
+      <itemId>48</itemId>
+      <itemId>49</itemId>
+      <itemId>50</itemId>
+    </leafItemIds>
+    <sharedComponentItemIds />
+    <analyzedAtUtc>2026-08-06T15:02:29.4099996Z</analyzedAtUtc>
+    <analysisComment />
+  </productStructure>
+  <problemClassification status="partiallyClassified" primaryProblemTypeCode="MLLP" primaryProblemTypeName="Multi-level lot-sizing problem" classifierVersion="1.0" catalogName="Standard lot-sizing problem taxonomy" catalogVersion="1.0" supplyChainFingerprint="SHA256-XML-1:321EDD55FAF586BA16370B38D2F6244AD73D00A877C3AB68C18C131CD6DEBB1D">
+    <features itemCount="50" planningHorizon="24" plantCount="1" workCenterCount="1" warehouseCount="2" supplierCount="0" distributionCenterCount="1" transportResourceCount="0" productStructureRelationshipCount="49" maximumProductStructureDepth="4" productStructureType="assembly" hasDemand="true" hasDeterministicDemand="true" hasTimeVaryingDemand="true" hasInitialInventory="false" hasSafetyStockRequirements="false" hasBacklogging="false" hasLostSales="false" hasProduction="true" hasProductionCapacityConstraints="false" hasSharedProductionCapacity="true" hasTimeVaryingProductionCapacity="false" hasSetupCosts="true" hasSetupTimes="false" hasStartUpCosts="false" hasProductionLeadTimes="false" hasMinimumLotSizes="false" hasMaximumLotSizes="false" hasLotSizeMultiples="false" hasAdditionalProductionCapacity="false" hasAdditionalWarehouseCapacity="false" hasAdditionalTransportCapacity="false" hasPurchasing="false" hasSupplierCapacityConstraints="false" hasSupplierLeadTimes="false" hasTransportation="false" hasTransportCapacityConstraints="false" hasTransportLeadTimes="false" hasDistribution="true" hasWarehouseCapacityConstraints="false" isMultiSite="true" hasFinancialConstraints="false" hasMultipleObjectives="false" />
+    <classifiedAtUtc>2026-08-06T15:02:29.4112207Z</classifiedAtUtc>
+    <matches>
+      <knownProblemTypeMatch problemTypeCode="MLLP" problemTypeName="Multi-level lot-sizing problem" definitionVersion="1.0" matchKind="knownExtension" scope="completeProblem" score="1">
+        <scopeDescription />
+        <affectedEntityKeys />
+        <additionalFeatureCodes>
+          <featureCode>isMultiSite</featureCode>
+        </additionalFeatureCodes>
+        <evidence>
+          <classificationEvidence ruleCode="CAPACITY.UNCAPACITATED" featureCode="HasProductionCapacityConstraints" satisfied="true" required="true" weight="1">
+            <description>Production is not subject to a capacity constraint.</description>
+            <expectedValue>false</expectedValue>
+            <observedValue>false</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.DETERMINISTIC_DEMAND" featureCode="HasDeterministicDemand" satisfied="true" required="true" weight="1">
+            <description>Demand is represented deterministically.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.HAS_DEMAND" featureCode="HasDemand" satisfied="true" required="true" weight="1">
+            <description>The instance contains demand data.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.HAS_PRODUCTION" featureCode="HasProduction" satisfied="true" required="true" weight="1">
+            <description>The instance contains production decisions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.MULTI_PERIOD" featureCode="PlanningHorizon" satisfied="true" required="true" weight="1">
+            <description>The planning horizon contains more than one period.</description>
+            <expectedValue>1</expectedValue>
+            <observedValue>24</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="STRUCTURE.MULTI_ITEM" featureCode="IsMultiItem" satisfied="true" required="true" weight="1">
+            <description>The instance contains several items.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="STRUCTURE.MULTI_LEVEL" featureCode="IsMultiLevel" satisfied="true" required="true" weight="1">
+            <description>The instance contains at least one bill-of-materials relationship.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.ADDITIONAL_CAPACITY" featureCode="HasAdditionalCapacity" satisfied="false" required="false" weight="0">
+            <description>Additional production, storage or transport capacity can be acquired.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.BACKLOGGING" featureCode="HasBacklogging" satisfied="false" required="false" weight="0">
+            <description>Unmet demand may be carried to later periods.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.FINANCIAL_CONSTRAINTS" featureCode="HasFinancialConstraints" satisfied="false" required="false" weight="0">
+            <description>The instance contains explicit financial constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.LOST_SALES" featureCode="HasLostSales" satisfied="false" required="false" weight="0">
+            <description>Demand may be permanently lost.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.LOT_SIZE_MULTIPLES" featureCode="HasLotSizeMultiples" satisfied="false" required="false" weight="0">
+            <description>Production quantities must respect lot-size multiples.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MAXIMUM_LOT_SIZES" featureCode="HasMaximumLotSizes" satisfied="false" required="false" weight="0">
+            <description>The instance contains maximum lot-size restrictions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MINIMUM_LOT_SIZES" featureCode="HasMinimumLotSizes" satisfied="false" required="false" weight="0">
+            <description>The instance contains minimum lot-size restrictions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MULTIPLE_OBJECTIVES" featureCode="HasMultipleObjectives" satisfied="false" required="false" weight="0">
+            <description>The instance contains several objective criteria.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MULTI_SITE" featureCode="IsMultiSite" satisfied="true" required="false" weight="0">
+            <description>The instance contains several physical production or storage sites.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment>The condition identifies an additional feature not included in the classical problem-family definition.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.PURCHASING" featureCode="HasPurchasing" satisfied="false" required="false" weight="0">
+            <description>The instance contains external purchasing decisions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SAFETY_STOCK" featureCode="HasSafetyStockRequirements" satisfied="false" required="false" weight="0">
+            <description>The instance contains safety-stock requirements.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SETUP_TIMES" featureCode="HasSetupTimes" satisfied="false" required="false" weight="0">
+            <description>Setups consume production capacity.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.START_UP_COSTS" featureCode="HasStartUpCosts" satisfied="false" required="false" weight="0">
+            <description>The model distinguishes start-up costs from ordinary setup costs.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SUPPLIER_CAPACITY" featureCode="HasSupplierCapacityConstraints" satisfied="false" required="false" weight="0">
+            <description>Suppliers are subject to capacity constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SUPPLIER_LEAD_TIMES" featureCode="HasSupplierLeadTimes" satisfied="false" required="false" weight="0">
+            <description>Supplier delivery lead times are represented.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.TRANSPORTATION" featureCode="HasTransportation" satisfied="false" required="false" weight="0">
+            <description>The instance contains transportation decisions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.TRANSPORT_CAPACITY" featureCode="HasTransportCapacityConstraints" satisfied="false" required="false" weight="0">
+            <description>Transportation is subject to capacity constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.TRANSPORT_LEAD_TIMES" featureCode="HasTransportLeadTimes" satisfied="false" required="false" weight="0">
+            <description>Transport lead times are represented.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.WAREHOUSE_CAPACITY" featureCode="HasWarehouseCapacityConstraints" satisfied="false" required="false" weight="0">
+            <description>Storage is subject to warehouse-capacity constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+        </evidence>
+        <comment />
+      </knownProblemTypeMatch>
+      <knownProblemTypeMatch problemTypeCode="MLCLSP" problemTypeName="Multi-level capacitated lot-sizing problem" definitionVersion="1.0" matchKind="closestKnownFamily" scope="completeProblem" score="0.7777777777777778">
+        <scopeDescription />
+        <affectedEntityKeys />
+        <additionalFeatureCodes>
+          <featureCode>isMultiSite</featureCode>
+        </additionalFeatureCodes>
+        <evidence>
+          <classificationEvidence ruleCode="CAPACITY.PRODUCTION_CAPACITATED" featureCode="HasProductionCapacityConstraints" satisfied="false" required="true" weight="1">
+            <description>Production is subject to at least one capacity constraint.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.DETERMINISTIC_DEMAND" featureCode="HasDeterministicDemand" satisfied="true" required="true" weight="1">
+            <description>Demand is represented deterministically.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.HAS_DEMAND" featureCode="HasDemand" satisfied="true" required="true" weight="1">
+            <description>The instance contains demand data.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.HAS_PRODUCTION" featureCode="HasProduction" satisfied="true" required="true" weight="1">
+            <description>The instance contains production decisions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="COMMON.MULTI_PERIOD" featureCode="PlanningHorizon" satisfied="true" required="true" weight="1">
+            <description>The planning horizon contains more than one period.</description>
+            <expectedValue>1</expectedValue>
+            <observedValue>24</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="STRUCTURE.MULTI_ITEM" featureCode="IsMultiItem" satisfied="true" required="true" weight="1">
+            <description>The instance contains several items.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="STRUCTURE.MULTI_LEVEL" featureCode="IsMultiLevel" satisfied="true" required="true" weight="1">
+            <description>The instance contains at least one bill-of-materials relationship.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="CAPACITY.SHARED_PRODUCTION" featureCode="HasSharedProductionCapacity" satisfied="true" required="false" weight="1">
+            <description>Several production activities share at least one production capacity.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="CAPACITY.TIME_VARYING_PRODUCTION" featureCode="HasTimeVaryingProductionCapacity" satisfied="false" required="false" weight="1">
+            <description>At least one production capacity varies between planning periods.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment />
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.ADDITIONAL_CAPACITY" featureCode="HasAdditionalCapacity" satisfied="false" required="false" weight="0">
+            <description>Additional production, storage or transport capacity can be acquired.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.BACKLOGGING" featureCode="HasBacklogging" satisfied="false" required="false" weight="0">
+            <description>Unmet demand may be carried to later periods.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.FINANCIAL_CONSTRAINTS" featureCode="HasFinancialConstraints" satisfied="false" required="false" weight="0">
+            <description>The instance contains explicit financial constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.LOST_SALES" featureCode="HasLostSales" satisfied="false" required="false" weight="0">
+            <description>Demand may be permanently lost.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.LOT_SIZE_MULTIPLES" featureCode="HasLotSizeMultiples" satisfied="false" required="false" weight="0">
+            <description>Production quantities must respect lot-size multiples.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MAXIMUM_LOT_SIZES" featureCode="HasMaximumLotSizes" satisfied="false" required="false" weight="0">
+            <description>The instance contains maximum lot-size restrictions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MINIMUM_LOT_SIZES" featureCode="HasMinimumLotSizes" satisfied="false" required="false" weight="0">
+            <description>The instance contains minimum lot-size restrictions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MULTIPLE_OBJECTIVES" featureCode="HasMultipleObjectives" satisfied="false" required="false" weight="0">
+            <description>The instance contains several objective criteria.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.MULTI_SITE" featureCode="IsMultiSite" satisfied="true" required="false" weight="0">
+            <description>The instance contains several physical production or storage sites.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>true</observedValue>
+            <comment>The condition identifies an additional feature not included in the classical problem-family definition.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.PURCHASING" featureCode="HasPurchasing" satisfied="false" required="false" weight="0">
+            <description>The instance contains external purchasing decisions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SAFETY_STOCK" featureCode="HasSafetyStockRequirements" satisfied="false" required="false" weight="0">
+            <description>The instance contains safety-stock requirements.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SETUP_TIMES" featureCode="HasSetupTimes" satisfied="false" required="false" weight="0">
+            <description>Setups consume production capacity.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.START_UP_COSTS" featureCode="HasStartUpCosts" satisfied="false" required="false" weight="0">
+            <description>The model distinguishes start-up costs from ordinary setup costs.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SUPPLIER_CAPACITY" featureCode="HasSupplierCapacityConstraints" satisfied="false" required="false" weight="0">
+            <description>Suppliers are subject to capacity constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.SUPPLIER_LEAD_TIMES" featureCode="HasSupplierLeadTimes" satisfied="false" required="false" weight="0">
+            <description>Supplier delivery lead times are represented.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.TRANSPORTATION" featureCode="HasTransportation" satisfied="false" required="false" weight="0">
+            <description>The instance contains transportation decisions.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.TRANSPORT_CAPACITY" featureCode="HasTransportCapacityConstraints" satisfied="false" required="false" weight="0">
+            <description>Transportation is subject to capacity constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.TRANSPORT_LEAD_TIMES" featureCode="HasTransportLeadTimes" satisfied="false" required="false" weight="0">
+            <description>Transport lead times are represented.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+          <classificationEvidence ruleCode="EXT.WAREHOUSE_CAPACITY" featureCode="HasWarehouseCapacityConstraints" satisfied="false" required="false" weight="0">
+            <description>Storage is subject to warehouse-capacity constraints.</description>
+            <expectedValue>true</expectedValue>
+            <observedValue>false</observedValue>
+            <comment>The possible extension is not present in the analyzed instance.</comment>
+          </classificationEvidence>
+        </evidence>
+        <comment />
+      </knownProblemTypeMatch>
+    </matches>
+    <unclassifiedFeatureCodes>
+      <featureCode>isMultiSite</featureCode>
+    </unclassifiedFeatureCodes>
+    <warnings />
+    <errors />
+    <comment />
+  </problemClassification>
+  <tags>
+    <tag>Dellaert-Jeunet</tag>
+    <tag>XML import</tag>
+    <tag>Middle</tag>
+    <tag>BOM:Assembly</tag>
+  </tags>
+  <comment>The physical supply-chain resources were generated by the importer because the source benchmark defines an abstract single-site lot-sizing problem.</comment>
+</lotSizingInstance>
