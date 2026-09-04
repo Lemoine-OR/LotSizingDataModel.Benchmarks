@@ -7,6 +7,8 @@ on:
       - 'catalog/global/**'
       - 'benchmarks/**/instances/**'
       - 'docs/portal/**'
+      - 'docs/benchmarks/alignment-r2/**'
+      - 'tools/build_alignment_publication.py'
       - 'tools/build_benchmark_portal.py'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
@@ -29,7 +31,9 @@ jobs:
         with:
           python-version: '3.12'
       - name: Build benchmark explorer
-        run: python tools/build_benchmark_portal.py
+        run: |
+          python tools/build_alignment_publication.py
+          python tools/build_benchmark_portal.py
       - uses: actions/configure-pages@v5
         with:
           enablement: true

@@ -16,3 +16,4 @@ benchmarks/**/raw/*
 # Local and intermediate release material.
 reports/v0.*/
 releases/**/*.zip
+.lsi-pack-backups/

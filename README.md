@@ -23,6 +23,10 @@
 
 ## Explore the benchmark library
 
+**DataModel 1.3.0 alignment R2:** all 7,905 instances now include their Universal and LSI 1.0 notation in the instance tables, including the known-results table. [Browse the nine scientific views](https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/benchmarks/alignment-r2/index.html) or [read the preservation report](reports/alignment-r2/FINAL-VALIDATION.md). Existing objectives, bounds and the 96 published DJ2000 solutions remain available.
+
+Reclassification requires the [tested DataModel XML compatibility additions](compatibility/datamodel-1.3.0/README.md); the published catalogue is already computed and validated.
+
 The **[interactive benchmark explorer](https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/)** is the recommended entry point. It provides a three-level scientific catalogue:
 
 > **Problem family → instance lot → searchable instance table**

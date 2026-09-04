@@ -20,3 +20,7 @@ jobs:
         run: python tools/validate_v1_release.py .
       - name: Verify generated benchmark explorer
         run: python tools/build_benchmark_portal.py --check
+      - name: Verify DataModel alignment and public links
+        run: python tools/build_alignment_publication.py --check
+      - name: Verify visible notation for every instance
+        run: python tools/validate_instance_notation.py

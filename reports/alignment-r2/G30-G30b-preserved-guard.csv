@@ -1,0 +1,2 @@
+﻿"authoritative_instance","authoritative_fingerprint","prohibited_name_merge","status","rule"
+"TRIGEIRO1989::G::G30","SHA256-XML-1:D54C68FBF0B00BC7986CFA4B0C038A83C77E4311BEAC7D32877673B327A0F7D0","G30b","PASS_NON_IDENTITY_GUARD","Name similarity never establishes benchmark identity; exact fingerprint plus provenance is required."

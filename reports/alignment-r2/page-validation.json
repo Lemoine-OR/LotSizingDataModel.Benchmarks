@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "method": "Static source/data/link checks; browser file URL blocked by browser security policy",
+  "views": 9,
+  "rows": 7905,
+  "xmlLinks": 7905,
+  "challengeInstances": 125
+}

@@ -1,0 +1,15 @@
+{
+  "rows": 7905,
+  "xmlSemanticPreservation": "PASS",
+  "globalIds": "PASS",
+  "fingerprints": "PASS",
+  "knownResults": "PASS",
+  "universalNotation": 7905,
+  "lsi10": 7905,
+  "g30G30bNonIdentity": "PASS",
+  "globalRegistry": "PASS",
+  "classificationConfidence": "UNAVAILABLE",
+  "pages": "PASS_STATIC",
+  "baseline": "v1.0.0",
+  "dataModelVersion": "1.3.0"
+}

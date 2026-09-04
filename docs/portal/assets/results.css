@@ -5,3 +5,6 @@
 .filter-bar{display:flex;flex-wrap:wrap;gap:8px;margin:-8px 0 18px}
 .filter-bar button{border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--muted);padding:8px 13px;font:inherit;font-size:12px;font-weight:750;cursor:pointer}
 .filter-bar button.active,.filter-bar button:hover{border-color:var(--blue);background:#eaf4ff;color:var(--navy)}
+.notation-cell{min-width:340px;max-width:460px}
+.notation-cell span{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800;margin-bottom:4px}
+.notation-cell code{display:block;white-space:normal;overflow-wrap:anywhere;font-size:11px;line-height:1.5;color:var(--navy);margin-bottom:10px}
