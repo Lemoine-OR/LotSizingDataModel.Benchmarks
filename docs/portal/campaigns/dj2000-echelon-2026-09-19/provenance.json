@@ -1,0 +1,13 @@
+{
+  "modelBaseline": "e63d2a99285394a848a0ca4d7b561fcdc7e4aa4b",
+  "benchmarkCommit": "58778770900df49c724ced4ed6ab7744b0f7661f",
+  "benchmarkIdentity": "All 136 source XML SHA256 fingerprints match this benchmark commit byte for byte.",
+  "files": {
+    "Program.cs": "f974694896832f401e1a415c66e99957171df825972fec606deb041eba787aa4",
+    "Runner.csproj": "cd1d2e8d5af5b5b155c236b3c162474f77653d4fbf36f429e15d15d80a023bbf",
+    "prepare.py": "af3170938af06f2ff78b9092f11be1a94ae0d9b46ce80d4893ae514c164cb2fd",
+    "verify.py": "21a6101e2385f949d88f51006f01d5a60f34df4c8b40c757e3cfacf2fdc88260",
+    "audit_final.py": "a68bd3d333a7c2b721e7090bbdd48b9d6f7659541da4fda354f64d7231aa8796",
+    "model\\src\\MLLPAlgorithm\\Scientific\\Mechanisms\\ClarkArmentano\\ClarkArmentanoSynchronization.cs": "e820d7d1a46ce395ab2390dc1457d037aff3565c0183f9ffb379f9f5d0187c7d"
+  }
+}

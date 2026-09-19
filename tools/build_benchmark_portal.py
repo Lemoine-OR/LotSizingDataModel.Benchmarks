@@ -11,6 +11,7 @@ TRUST = ROOT / "catalog/global/GLOBAL-NORMALIZED-TRUST-v1.0.0.csv"
 DIMENSIONS = ROOT / "docs/portal/data/instance-dimensions-v1.0.0.csv"
 ALIGNMENT = ROOT / "catalog/global/GLOBAL-BENCHMARK-REGISTRY-DATAMODEL-1.3.0-R2.json"
 OUT = ROOT / "docs/portal"
+CAMPAIGN = OUT / "campaigns/dj2000-echelon-2026-09-19"
 REPO = "https://github.com/Lemoine-OR/LotSizingDataModel.Benchmarks"
 DJ_SOLUTIONS = ROOT / "benchmarks/DJ2000/Phase1/solutions"
 FAMILY_DESCRIPTIONS = {
@@ -48,6 +49,19 @@ def read_rows():
         row["planning_horizon"]=dim.get("planning_horizon") or row.get("planning_horizon","")
         row["item_count"]=dim.get("item_count") or row.get("item_count","")
         row["work_center_count"]=dim.get("work_center_count") or row.get("work_center_count","")
+    campaign = json.loads((CAMPAIGN / 'results.json').read_text(encoding='utf-8'))
+    additions = {r['global_instance_id']: r for r in campaign['rows']}
+    assert len(additions) == 136
+    for row in rows:
+        result = additions.pop(row['global_instance_id'], None)
+        if result is None: continue
+        assert row['canonical_xml_sha256'].lower() == result['sha256']
+        row.update(campaign_result=result, objective_reference=result['objective'],
+                   lower_bound=result['bound'], complete_solution_available='True',
+                   checker_verified_solution='True', trust_status='OPTIMAL_WITHIN_ABSOLUTE_GAP',
+                   optimality_status='OPTIMAL_WITHIN_ABSOLUTE_GAP',
+                   literature_source='MLLPAlgorithm F(E), CPLEX 20.1; campaign 2026-09-19; absolute tolerance 1e-5')
+    assert not additions, 'Unmatched campaign instances'
     return rows
 
 def notation_cell(row):
@@ -61,6 +75,7 @@ def best_value(row):
     if row.get("lower_bound"): return row["lower_bound"], "Lower bound"
     return "—", "No reference"
 def proof(row):
+    if row.get('campaign_result'): return 'Optimal (abs. ≤ 1e-5)', 'ok'
     status=row.get("trust_status","")
     optimal=row.get("optimality_status","")
     if status == "VERIFIED_PROVEN_OPTIMAL" or optimal == "PROVEN_OPTIMAL": return "Proven optimal", "ok"
@@ -73,6 +88,8 @@ def solution_record(row):
     if yes(row.get("complete_solution_available")): return "Recorded; file unavailable", "open"
     return "Unavailable", "neutral"
 def published_solution(row):
+    if row.get('campaign_result'):
+        return CAMPAIGN / 'results' / row['campaign_result']['name'] / 'solution.xml'
     if row.get("family") != "DJ2000" or row.get("subfamily") != "Phase1": return None
     matches=sorted(DJ_SOLUTIONS.glob(f"{row['original_instance_id']}.solver-*.solution.xml"))
     return matches[0] if len(matches) == 1 else None
@@ -82,6 +99,8 @@ def solution_cell(row, text, kind):
     link=f"{REPO}/blob/main/{path.relative_to(ROOT).as_posix()}"
     return f'<a class="solution-link" href="{link}">{badge(text,kind)}</a>'
 def gap(row):
+    if row.get('campaign_result'):
+        return f"{float(row['campaign_result']['absoluteGap']):.3e} abs."
     try:
         incumbent=float(row.get("objective_reference") or "")
         bound=float(row.get("lower_bound") or "")
@@ -93,6 +112,9 @@ def page(title, body, depth=0):
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Lot-sizing benchmark explorer"><title>{esc(title)} · LotSizingDataModel.Benchmarks</title><link rel="stylesheet" href="{prefix}assets/styles.css"><link rel="stylesheet" href="{prefix}assets/results.css"></head><body><header class="site-header"><a class="brand" href="{prefix}index.html"><span class="brand-mark">LS</span><span>LotSizingDataModel<span class="muted">.Benchmarks</span></span></a><nav><a href="{prefix}index.html">Problems</a><a href="{prefix}results.html">Known results</a><a href="{prefix}../benchmarks/alignment-r2/index.html">Scientific notation</a><a href="{REPO}">GitHub</a><a href="{REPO}/releases/tag/v1.0.0">Release v1.0.0</a></nav></header><main>{body}</main><footer>Curated, traceable and reproducible lot-sizing research benchmarks · v1.0.0 · DataModel 1.3.0 R2</footer><script src="{prefix}assets/app.js"></script></body></html>'''
 def metric(value,label): return f'<div class="metric"><strong>{esc(value)}</strong><span>{esc(label)}</span></div>'
 def badge(text,kind="neutral"): return f'<span class="badge {kind}">{esc(text)}</span>'
+
+def campaign_notice():
+    return '''<section class="section"><h2>New: echelon-stock campaign · 19 September 2026</h2><p><strong>136 / 136 final solutions verified</strong>: Phase 1 (96), Phase 2 (40). Exact binary values, rational material balances and recalculated costs. Numerical optimality against the original global CPLEX bound, with absolute tolerance ≤ 10⁻⁵; maximum observed discrepancy 3.66 × 10⁻⁹. This is not an independent exact rational lower-bound certificate.</p><p><a class="primary-action" href="../campaigns/dj2000-echelon-2026-09-19/dashboard.html">Open dashboard: all objectives, solutions and computation times</a></p><p><a href="../campaigns/dj2000-echelon-2026-09-19/solutions-optimales-DJ2000-phases1-2.zip">Download 136 solutions and evidence</a> · <a href="../campaigns/dj2000-echelon-2026-09-19/PROTOCOL.md">Protocol and validation tolerance</a></p><p>Total computation: 306.76 s, including 227.40 s MIP. Times exclude campaign setup and unsuccessful qualification attempts. Historical v1.0.0 registry records are preserved; this dated campaign supplements their portal display.</p></section>'''
 
 def build():
     rows=read_rows(); families=defaultdict(list)
@@ -123,8 +145,10 @@ def build():
                 is_proven='true' if proof_kind == 'ok' else 'false'
                 table_rows.append(f'''<tr data-search="{esc(search)}" data-result="{has_result}" data-proven="{is_proven}"><td><a href="{link}">{esc(r['original_instance_id'])}</a></td>{notation_cell(r)}<td>{esc(r.get('planning_horizon') or '—')}</td><td>{esc(r.get('item_count') or '—')}</td><td>{esc(r.get('work_center_count') or '—')}</td><td>{esc(r.get('objective_reference') or '—')}</td><td>{esc(r.get('lower_bound') or '—')}</td><td>{esc(gap(r))}</td><td>{badge(proof_text,proof_kind)}</td><td>{solution_cell(r,solution_text,solution_kind)}</td><td>{esc(source)}</td></tr>''')
             lot_body=f'''<section class="hero compact"><div class="eyebrow"><a href="../families/{slug(family)}.html">{esc(family)}</a> / Instance lot</div><h1>{esc(lot_name)}</h1><p>Best-known values, bounds, solution availability and proof status for every canonical instance.</p><div class="metrics">{metric(len(lot_rows),'Instances')}{metric(refs,'Known values / bounds')}{metric(solutions,'Solutions recorded')}{metric(proven,'Proven optimal')}</div></section><section class="section"><div class="section-head"><div><span class="eyebrow">Results and solutions</span><h2>Instance results table</h2></div><label class="search">Search<input type="search" data-table-filter placeholder="ID, notation, status or value"></label></div><div class="filter-bar"><button class="active" data-result-filter="all">All instances</button><button data-result-filter="known">Known values only</button><button data-result-filter="proven">Proven optimal only</button></div><div class="table-wrap"><table><thead><tr><th>Instance</th><th>Notation · Universal / LSI</th><th>Periods</th><th>Items</th><th>Centers</th><th>Best-known objective</th><th>Lower bound</th><th>Gap</th><th>Optimality</th><th>Solution file</th><th>Source</th></tr></thead><tbody>{''.join(table_rows)}</tbody></table></div><p class="table-note"><span data-visible-count>{len(lot_rows)}</span> of {len(lot_rows)} instances shown. “Not proven” means that no proof is preserved here; it does not assert that the value is non-optimal. Published solution files contain the complete decision vector and checker evaluation.</p></section>'''
+            if family == 'DJ2000' and lot_name in ('Phase1', 'Phase2'): lot_body += campaign_notice()
             outputs[OUT/f"lots/{slug(family)}--{slug(lot_name)}.html"]=page(f"{family} · {lot_name}",lot_body,1)
         fam_body=f'''<section class="hero compact"><div class="eyebrow"><a href="../index.html">Benchmark problems</a> / Family</div><h1>{esc(family)}</h1><p>{esc(FAMILY_DESCRIPTIONS.get(family,''))}</p><div class="metrics">{metric(len(group),'Canonical instances')}{metric(len(lots),'Instance lots')}{metric(sum(bool(r.get('objective_reference') or r.get('lower_bound')) for r in group),'Known references')}</div></section><section class="section"><div class="section-head"><div><span class="eyebrow">Available datasets</span><h2>Select an instance lot</h2></div></div><div class="card-grid">{''.join(lot_cards)}</div></section>'''
+        if family == 'DJ2000': fam_body = campaign_notice() + fam_body
         outputs[OUT/f"families/{slug(family)}.html"]=page(family,fam_body,1)
     result_rows=[r for r in rows if r.get('objective_reference') or r.get('lower_bound') or yes(r.get('complete_solution_available'))]
     global_rows=[]

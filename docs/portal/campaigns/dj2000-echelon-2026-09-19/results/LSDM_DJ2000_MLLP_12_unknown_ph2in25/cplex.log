@@ -1,0 +1,93 @@
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_Emphasis_Numerical                      1
+CPXPARAM_RandomSeed                              1
+CPXPARAM_Simplex_Tolerances_Optimality           1.0000000000000001e-09
+CPXPARAM_Simplex_Tolerances_Feasibility          1.0000000000000001e-09
+CPXPARAM_MIP_Tolerances_AbsMIPGap                9.9999999999999995e-08
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+CPXPARAM_MIP_Tolerances_Integrality              0
+Found incumbent of value 273351.200000 after 0.00 sec. (0.15 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 81 rows and 80 columns.
+MIP Presolve added 2 rows and 0 columns.
+Aggregator did 81 substitutions.
+Reduced MIP has 1268 rows, 1279 columns, and 3229 nonzeros.
+Reduced MIP has 440 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (5.34 ticks)
+Probing fixed 0 vars, tightened 1 bounds.
+Probing time = 0.02 sec. (1.78 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve modified 2 coefficients.
+Reduced MIP has 1268 rows, 1279 columns, and 3229 nonzeros.
+Reduced MIP has 440 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (4.50 ticks)
+Probing time = 0.00 sec. (1.72 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.02 sec. (2.63 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       273351.2000        0.0000           100.00%
+      0     0    78602.9390   347   273351.2000    78602.9390      507   71.24%
+*     0+    0                       196920.9500    78602.9390            60.08%
+      0     0   125100.0715   192   196920.9500     Cuts: 417      764   36.47%
+*     0+    0                       167828.9000   125100.0715            25.46%
+      0     0   157927.9032    63   167828.9000     Cuts: 417     1000    5.90%
+*     0+    0                       166575.2000   157927.9032             5.19%
+      0     0   160278.1251    46   166575.2000     Cuts: 166     1081    3.78%
+*     0+    0                       161619.0000   160278.1251             0.83%
+      0     0   160584.2427    34   161619.0000      Cuts: 41     1108    0.64%
+      0     0   160871.8477    77   161619.0000      Cuts: 32     1132    0.46%
+Detecting symmetries...
+      0     0   160934.9957    90   161619.0000       Cuts: 9     1140    0.42%
+      0     0   161052.0991    76   161619.0000      Cuts: 23     1156    0.35%
+*     0+    0                       161464.0000   161052.0991             0.26%
+      0     0   161058.9718    79   161464.0000   Flowcuts: 2     1166    0.25%
+      0     0   161111.5168    91   161464.0000       Cuts: 4     1180    0.22%
+      0     0   161142.2149    88   161464.0000      Cuts: 18     1197    0.20%
+      0     0   161162.6979    72   161464.0000       Cuts: 6     1205    0.19%
+      0     0   161171.0034    70   161464.0000    MIRcuts: 7     1216    0.18%
+Detecting symmetries...
+      0     2   161171.0034    70   161464.0000   161287.6773     1216    0.11%
+Elapsed time = 0.52 sec. (199.43 ticks, tree = 0.02 MB, solutions = 6)
+*    12     2      integral     0   161457.0000   161287.6773     1291    0.10%
+
+Implied bound cuts applied:  193
+Flow cuts applied:  282
+Mixed integer rounding cuts applied:  180
+Flow path cuts applied:  13
+Multi commodity flow cuts applied:  6
+Lift and project cuts applied:  2
+Gomory fractional cuts applied:  175
+
+Root node processing (before b&c):
+  Real time             =    0.50 sec. (198.60 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.06 sec. (21.58 ticks)
+  Sync time (average)   =    0.04 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.56 sec. (220.18 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_Emphasis_Numerical                      1
+CPXPARAM_RandomSeed                              1
+CPXPARAM_Simplex_Tolerances_Optimality           1.0000000000000001e-09
+CPXPARAM_Simplex_Tolerances_Feasibility          1.0000000000000001e-09
+CPXPARAM_MIP_Tolerances_AbsMIPGap                9.9999999999999995e-08
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+CPXPARAM_MIP_Tolerances_Integrality              0
+Tried aggregator 1 time.
+LP Presolve eliminated 700 rows and 723 columns.
+Aggregator did 227 substitutions.
+Reduced LP has 501 rows, 490 columns, and 1375 nonzeros.
+Presolve time = 0.00 sec. (1.22 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =        125161.200000

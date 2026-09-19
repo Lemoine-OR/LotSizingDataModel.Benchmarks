@@ -1,0 +1,1096 @@
+{
+  "name": "LSDM_DJ2000_MLLP_12_unknown_ph1in32st4de2mh1ms0",
+  "sourceSha256": "1a8f56f8396eae034d97a2c5897ad181653a15d385be23b9c6ce1acab2d53765",
+  "formulation": "F(E)",
+  "status": "Optimal",
+  "detailed": "Optimal",
+  "incumbent": 1121.9999999999998,
+  "bound": 1121.9999999999998,
+  "polishedObjective": 1122,
+  "binaryResidual": 9.103828801926284E-15,
+  "mipSeconds": 0.1207734,
+  "polishSeconds": 0.0020845,
+  "totalSeconds": 0.4749141,
+  "values": [
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 1,
+      "value": 175
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 3,
+      "value": 150
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 5,
+      "value": 100
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 6,
+      "value": 100
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 7,
+      "value": 125
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 8,
+      "value": 205
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 10,
+      "value": 150
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 12,
+      "value": 100
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 1,
+      "value": 325
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 5,
+      "value": 325
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 6,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 8,
+      "value": 455
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 10,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 1,
+      "value": 325
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 5,
+      "value": 325
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 6,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 8,
+      "value": 455
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 10,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 1,
+      "value": 325
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 5,
+      "value": 325
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 6,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 8,
+      "value": 455
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 10,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 1,
+      "value": 325
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 5,
+      "value": 325
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 6,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 8,
+      "value": 455
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 10,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 1,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 3,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 5,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 6,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 7,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 8,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 10,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 12,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 1,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 2,
+      "value": -0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 4,
+      "value": -0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 5,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 6,
+      "value": -0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 8,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 10,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 11,
+      "value": -0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 12,
+      "value": -0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 1,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 5,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 6,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 8,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 10,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 1,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 5,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 6,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 8,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 10,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 1,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 5,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 6,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 8,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 10,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 1,
+      "period": 1,
+      "value": 50
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 1,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 1,
+      "period": 3,
+      "value": 50
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 1,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 1,
+      "period": 5,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 1,
+      "period": 6,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 1,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 1,
+      "period": 8,
+      "value": 80
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 1,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 1,
+      "period": 10,
+      "value": 50
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 1,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 1,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 2,
+      "period": 1,
+      "value": 150
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 2,
+      "period": 2,
+      "value": 150
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 2,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 2,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 2,
+      "period": 5,
+      "value": 225
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 2,
+      "period": 6,
+      "value": 125
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 2,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 2,
+      "period": 8,
+      "value": 250
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 2,
+      "period": 9,
+      "value": 250
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 2,
+      "period": 10,
+      "value": 100
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 2,
+      "period": 11,
+      "value": 100
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 2,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 3,
+      "period": 1,
+      "value": 150
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 3,
+      "period": 2,
+      "value": 150
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 3,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 3,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 3,
+      "period": 5,
+      "value": 225
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 3,
+      "period": 6,
+      "value": 125
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 3,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 3,
+      "period": 8,
+      "value": 250
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 3,
+      "period": 9,
+      "value": 250
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 3,
+      "period": 10,
+      "value": 100
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 3,
+      "period": 11,
+      "value": 100
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 3,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 4,
+      "period": 1,
+      "value": 150
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 4,
+      "period": 2,
+      "value": 150
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 4,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 4,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 4,
+      "period": 5,
+      "value": 225
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 4,
+      "period": 6,
+      "value": 125
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 4,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 4,
+      "period": 8,
+      "value": 250
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 4,
+      "period": 9,
+      "value": 250
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 4,
+      "period": 10,
+      "value": 100
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 4,
+      "period": 11,
+      "value": 100
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 4,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 5,
+      "period": 1,
+      "value": 150
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 5,
+      "period": 2,
+      "value": 150
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 5,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 5,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 5,
+      "period": 5,
+      "value": 225
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 5,
+      "period": 6,
+      "value": 125
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 5,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 5,
+      "period": 8,
+      "value": 250
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 5,
+      "period": 9,
+      "value": 250
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 5,
+      "period": 10,
+      "value": 100
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 5,
+      "period": 11,
+      "value": 100
+    },
+    {
+      "kind": "ConventionalStock",
+      "item": 5,
+      "period": 12,
+      "value": 0
+    }
+  ]
+}

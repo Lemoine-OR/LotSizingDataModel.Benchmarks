@@ -1,0 +1,87 @@
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_Emphasis_Numerical                      1
+CPXPARAM_RandomSeed                              1
+CPXPARAM_Simplex_Tolerances_Optimality           1.0000000000000001e-09
+CPXPARAM_Simplex_Tolerances_Feasibility          1.0000000000000001e-09
+CPXPARAM_MIP_Tolerances_AbsMIPGap                9.9999999999999995e-08
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+CPXPARAM_MIP_Tolerances_Integrality              0
+Found incumbent of value 311889.250000 after 0.00 sec. (0.15 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 81 rows and 80 columns.
+MIP Presolve added 2 rows and 0 columns.
+Aggregator did 113 substitutions.
+Reduced MIP has 1236 rows, 1247 columns, and 3250 nonzeros.
+Reduced MIP has 440 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (5.50 ticks)
+Probing fixed 0 vars, tightened 1 bounds.
+Probing time = 0.00 sec. (1.67 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve modified 2 coefficients.
+Reduced MIP has 1236 rows, 1247 columns, and 3250 nonzeros.
+Reduced MIP has 440 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (4.43 ticks)
+Probing time = 0.00 sec. (1.62 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.02 sec. (2.22 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       311889.2500        0.0000           100.00%
+      0     0    76511.6573   356   311889.2500    76511.6573      422   75.47%
+*     0+    0                       224214.0000    76511.6573            65.88%
+      0     0   139318.3248   234   224214.0000     Cuts: 409      723   37.86%
+      0     0   187455.0973   155   224214.0000     Cuts: 409     1003   16.39%
+      0     0   195708.7965    50   224214.0000     Cuts: 409     1122   12.71%
+*     0+    0                       201571.4000   195708.7965             2.91%
+*     0+    0                       201115.3500   195708.7965             2.69%
+      0     0   197006.2214    47   201115.3500      Cuts: 57     1182    2.04%
+*     0+    0                       198961.4500   197006.2214             0.98%
+      0     0   197394.7833    31   198961.4500      Cuts: 40     1201    0.79%
+*     0+    0                       198109.4500   197394.7833             0.36%
+*     0+    0                       197708.9500   197394.7833             0.16%
+Detecting symmetries...
+Detecting symmetries...
+      0     2   197394.7833    31   197708.9500   197394.7833     1201    0.16%
+Elapsed time = 0.36 sec. (149.36 ticks, tree = 0.02 MB, solutions = 7)
+*     2     2      integral     0   197694.8000   197415.1000     1207    0.14%
+
+Implied bound cuts applied:  235
+Flow cuts applied:  330
+Mixed integer rounding cuts applied:  233
+Flow path cuts applied:  22
+Multi commodity flow cuts applied:  5
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  230
+
+Root node processing (before b&c):
+  Real time             =    0.38 sec. (148.40 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.05 sec. (29.10 ticks)
+  Sync time (average)   =    0.01 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.42 sec. (177.50 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_Emphasis_Numerical                      1
+CPXPARAM_RandomSeed                              1
+CPXPARAM_Simplex_Tolerances_Optimality           1.0000000000000001e-09
+CPXPARAM_Simplex_Tolerances_Feasibility          1.0000000000000001e-09
+CPXPARAM_MIP_Tolerances_AbsMIPGap                9.9999999999999995e-08
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+CPXPARAM_MIP_Tolerances_Integrality              0
+Tried aggregator 1 time.
+LP Presolve eliminated 654 rows and 680 columns.
+Aggregator did 198 substitutions.
+Reduced LP has 576 rows, 562 columns, and 1603 nonzeros.
+Presolve time = 0.00 sec. (1.26 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =         74936.700000

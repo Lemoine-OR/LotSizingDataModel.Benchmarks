@@ -1,0 +1,1091 @@
+{
+  "status": "Optimal",
+  "detailed": "Optimal",
+  "incumbent": 706.4799999999996,
+  "bound": 706.4799999999996,
+  "binaryResidual": 4.0602442043434295E-16,
+  "mipSeconds": 0.1238244,
+  "elapsedSeconds": 0.3189541,
+  "values": [
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 1,
+      "value": 124.99999999999913
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 4,
+      "value": 8.668621376273222E-13
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 5,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 6,
+      "value": 430
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 8,
+      "value": 549.9999999999999
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 9,
+      "value": 1.1368683772161603E-13
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 10,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 1,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 1,
+      "value": 125
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 5,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 6,
+      "value": 430
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 8,
+      "value": 550
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 10,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 2,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 1,
+      "value": 124.99999999999913
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 4,
+      "value": 2.4158453015843406E-13
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 5,
+      "value": 6.252776074688882E-13
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 6,
+      "value": 430
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 8,
+      "value": 550
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 10,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 3,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 1,
+      "value": 124.99999999999913
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 5,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 6,
+      "value": 430.00000000000085
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 8,
+      "value": 550
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 10,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 4,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 1,
+      "value": 124.99999999999913
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 4,
+      "value": 2.4513724383723456E-13
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 5,
+      "value": 6.252776074688882E-13
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 6,
+      "value": 430
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 8,
+      "value": 550
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 10,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "ProductionStart",
+      "item": 5,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 1,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 5,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 6,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 8,
+      "value": 0.9999999999999999
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 9,
+      "value": 4.0602442043434295E-16
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 10,
+      "value": -0
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 1,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 1,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 5,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 6,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 8,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 10,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 2,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 1,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 2,
+      "value": -0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 5,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 6,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 8,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 9,
+      "value": -0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 10,
+      "value": -0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 11,
+      "value": -0
+    },
+    {
+      "kind": "Setup",
+      "item": 3,
+      "period": 12,
+      "value": -0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 1,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 4,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 5,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 6,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 8,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 10,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 4,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 1,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 2,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 3,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 4,
+      "value": -0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 5,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 6,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 7,
+      "value": -0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 8,
+      "value": 1
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 9,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 10,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 11,
+      "value": 0
+    },
+    {
+      "kind": "Setup",
+      "item": 5,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 1,
+      "period": 1,
+      "value": 114.99999999999913
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 1,
+      "period": 2,
+      "value": 104.99999999999913
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 1,
+      "period": 3,
+      "value": 89.99999999999913
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 1,
+      "period": 4,
+      "value": 70
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 1,
+      "period": 5,
+      "value": 0
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 1,
+      "period": 6,
+      "value": 250
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 1,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 1,
+      "period": 8,
+      "value": 279.9999999999999
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 1,
+      "period": 9,
+      "value": 50
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 1,
+      "period": 10,
+      "value": 10
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 1,
+      "period": 11,
+      "value": 10
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 1,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 2,
+      "period": 1,
+      "value": 115
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 2,
+      "period": 2,
+      "value": 105
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 2,
+      "period": 3,
+      "value": 90
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 2,
+      "period": 4,
+      "value": 70
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 2,
+      "period": 5,
+      "value": 0
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 2,
+      "period": 6,
+      "value": 250
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 2,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 2,
+      "period": 8,
+      "value": 280
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 2,
+      "period": 9,
+      "value": 50
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 2,
+      "period": 10,
+      "value": 10
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 2,
+      "period": 11,
+      "value": 10
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 2,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 3,
+      "period": 1,
+      "value": 114.99999999999913
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 3,
+      "period": 2,
+      "value": 104.99999999999913
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 3,
+      "period": 3,
+      "value": 89.99999999999913
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 3,
+      "period": 4,
+      "value": 69.99999999999937
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 3,
+      "period": 5,
+      "value": 0
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 3,
+      "period": 6,
+      "value": 250
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 3,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 3,
+      "period": 8,
+      "value": 280
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 3,
+      "period": 9,
+      "value": 50
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 3,
+      "period": 10,
+      "value": 10
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 3,
+      "period": 11,
+      "value": 10
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 3,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 4,
+      "period": 1,
+      "value": 114.99999999999913
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 4,
+      "period": 2,
+      "value": 104.99999999999913
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 4,
+      "period": 3,
+      "value": 89.99999999999913
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 4,
+      "period": 4,
+      "value": 69.99999999999913
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 4,
+      "period": 5,
+      "value": -8.668621376273222E-13
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 4,
+      "period": 6,
+      "value": 250
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 4,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 4,
+      "period": 8,
+      "value": 280
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 4,
+      "period": 9,
+      "value": 50
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 4,
+      "period": 10,
+      "value": 10
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 4,
+      "period": 11,
+      "value": 10
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 4,
+      "period": 12,
+      "value": 0
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 5,
+      "period": 1,
+      "value": 114.99999999999913
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 5,
+      "period": 2,
+      "value": 104.99999999999913
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 5,
+      "period": 3,
+      "value": 89.99999999999913
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 5,
+      "period": 4,
+      "value": 69.99999999999937
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 5,
+      "period": 5,
+      "value": 0
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 5,
+      "period": 6,
+      "value": 250
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 5,
+      "period": 7,
+      "value": 0
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 5,
+      "period": 8,
+      "value": 280
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 5,
+      "period": 9,
+      "value": 50
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 5,
+      "period": 10,
+      "value": 10
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 5,
+      "period": 11,
+      "value": 10
+    },
+    {
+      "kind": "EchelonStock",
+      "item": 5,
+      "period": 12,
+      "value": 0
+    }
+  ]
+}

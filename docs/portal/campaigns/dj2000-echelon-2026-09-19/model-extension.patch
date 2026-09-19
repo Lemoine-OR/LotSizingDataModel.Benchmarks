@@ -1,0 +1,27 @@
+diff --git a/src/MLLPAlgorithm/Scientific/Mechanisms/ClarkArmentano/ClarkArmentanoSynchronization.cs b/src/MLLPAlgorithm/Scientific/Mechanisms/ClarkArmentano/ClarkArmentanoSynchronization.cs
+index 4aac202..f9326a0 100644
+--- a/src/MLLPAlgorithm/Scientific/Mechanisms/ClarkArmentano/ClarkArmentanoSynchronization.cs
++++ b/src/MLLPAlgorithm/Scientific/Mechanisms/ClarkArmentano/ClarkArmentanoSynchronization.cs
+@@ -42,6 +42,22 @@ public sealed class ClarkArmentanoSynchronization
+     /// conventional-stock input, starting at period zero.</summary>
+     public int RequiredConventionalStockLastPeriod { get; }
+ 
++    /// <summary>Campaign extension: zero-lead acyclic graph with multiple end items.
++    /// All offsets are zero; no dummy item, demand, constraint or cost is introduced.
++    /// EndItemId is only a representative in this extension and is not used by F(I)/F(E).</summary>
++    public static ClarkArmentanoSynchronization CreateZeroLeadGeneral(
++        IEnumerable<int> itemIds, IEnumerable<MllpProjectedRequirement> requirements, int horizon)
++    {
++        if (horizon <= 0) throw new ArgumentOutOfRangeException(nameof(horizon));
++        var ids = itemIds.Order().ToArray();
++        var graph = new MllpInstanceProjection("campaign-zero-lead-general", 1,
++            ids.Select(id => new MllpProjectedItem(id, 0, 0, [0], [0], [0], [0])), requirements);
++        var zeros = ids.ToDictionary(id => id, _ => 0);
++        var ends = ids.Where(id => !graph.Requirements.Any(e => e.ComponentItemId == id)).ToArray();
++        if (ends.Length == 0) throw new ArgumentException("No end item.");
++        return new(horizon, graph, zeros, ends[0], new(zeros), new(zeros), new(zeros));
++    }
++
+     public static ClarkArmentanoSynchronization Create(IReadOnlyDictionary<int, int> leadTimes,
+         IEnumerable<MllpProjectedRequirement> requirements, int planningHorizon,
+         CancellationToken cancellationToken = default)

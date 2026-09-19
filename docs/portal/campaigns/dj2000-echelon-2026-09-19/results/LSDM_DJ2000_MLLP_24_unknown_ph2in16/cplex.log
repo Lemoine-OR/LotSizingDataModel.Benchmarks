@@ -1,0 +1,112 @@
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_Emphasis_Numerical                      1
+CPXPARAM_RandomSeed                              1
+CPXPARAM_Simplex_Tolerances_Optimality           1.0000000000000001e-09
+CPXPARAM_Simplex_Tolerances_Feasibility          1.0000000000000001e-09
+CPXPARAM_MIP_Tolerances_AbsMIPGap                9.9999999999999995e-08
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+CPXPARAM_MIP_Tolerances_Integrality              0
+Found incumbent of value 476139.000000 after 0.00 sec. (0.37 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 101 rows and 100 columns.
+MIP Presolve added 2 rows and 0 columns.
+Aggregator did 276 substitutions.
+Reduced MIP has 3201 rows, 3224 columns, and 7813 nonzeros.
+Reduced MIP has 1150 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (25.97 ticks)
+Probing fixed 0 vars, tightened 1 bounds.
+Probing time = 0.03 sec. (5.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve modified 2 coefficients.
+Reduced MIP has 3201 rows, 3224 columns, and 7813 nonzeros.
+Reduced MIP has 1150 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (22.38 ticks)
+Probing time = 0.02 sec. (2.76 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.02 sec. (6.63 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       476139.0000        0.0000           100.00%
+      0     0    98300.3723  1047   476139.0000    98300.3723     1186   79.35%
+*     0+    0                       443624.7000    98300.3723            77.84%
+      0     0   171076.9504   765   443624.7000     Cuts: 900     1709   61.44%
+      0     0   273939.8343   703   443624.7000     Cuts: 900     2404   38.25%
+*     0+    0                       433773.7500   273939.8343            36.85%
+      0     0   319429.1915   727   433773.7500     Cuts: 900     3140   26.36%
+      0     0   332265.7945   612   433773.7500     Cuts: 900     3747   23.40%
+*     0+    0                       393242.3500   332265.7945            15.51%
+      0     0   337054.1714   645   393242.3500     Cuts: 867     4259   14.29%
+*     0+    0                       367319.4500   337054.1714             8.24%
+Detecting symmetries...
+      0     0   338801.5972   675   367319.4500     Cuts: 439     4653    7.76%
+*     0+    0                       357930.8000   338801.5972             5.34%
+      0     0   339390.6564   584   357930.8000     Cuts: 306     4899    5.18%
+*     0+    0                       356134.0000   339390.6564             4.70%
+      0     0   339673.2798   554   356134.0000     Cuts: 228     5117    4.62%
+*     0+    0                       345994.2000   339673.2798             1.83%
+      0     0   339833.0346   638   345994.2000     Cuts: 121     5272    1.78%
+      0     0   339936.7115   655   345994.2000     Cuts: 135     5377    1.75%
+*     0+    0                       344935.8000   339936.7115             1.45%
+      0     0   339979.0019   674   344935.8000     Cuts: 109     5475    1.44%
+      0     0   340041.9436   687   344935.8000      Cuts: 63     5543    1.42%
+      0     0   340102.4387   672   344935.8000      Cuts: 99     5615    1.40%
+*     0+    0                       344675.0000   340102.4387             1.33%
+      0     0   340128.9560   505   344675.0000     Cuts: 123     5671    1.32%
+*     0+    0                       342088.9000   340128.9560             0.57%
+      0     0   340160.4876   513   342088.9000      Cuts: 42     5732    0.56%
+      0     0   340177.4306   731   342088.9000      Cuts: 22     5784    0.56%
+*     0+    0                       340827.1000   340177.4306             0.19%
+Detecting symmetries...
+      0     2   340177.4306   731   340827.1000   340177.4306     5784    0.19%
+Elapsed time = 4.00 sec. (1751.25 ticks, tree = 0.02 MB, solutions = 12)
+*    75    37      integral     0   340815.6000   340420.0608     8404    0.12%
+     76    34        cutoff         340815.6000   340421.1348     8653    0.12%
+*   109+   43                       340815.0000   340460.8439             0.10%
+*   124    44      integral     0   340705.0000   340460.8439    10155    0.07%
+    150     1        cutoff         340705.0000   340696.0530    11951    0.00%
+
+Implied bound cuts applied:  72
+Flow cuts applied:  784
+Mixed integer rounding cuts applied:  757
+Flow path cuts applied:  279
+Lift and project cuts applied:  8
+Gomory fractional cuts applied:  107
+
+Root node processing (before b&c):
+  Real time             =    3.97 sec. (1746.31 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.97 sec. (492.73 ticks)
+  Sync time (average)   =    0.20 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    4.94 sec. (2239.05 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_Emphasis_Numerical                      1
+CPXPARAM_RandomSeed                              1
+CPXPARAM_Simplex_Tolerances_Optimality           1.0000000000000001e-09
+CPXPARAM_Simplex_Tolerances_Feasibility          1.0000000000000001e-09
+CPXPARAM_MIP_Tolerances_AbsMIPGap                9.9999999999999995e-08
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+CPXPARAM_MIP_Tolerances_Integrality              0
+Parallel mode: deterministic, using up to 4 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 3 threads...
+Tried aggregator 1 time.
+LP Presolve eliminated 1872 rows and 1922 columns.
+Aggregator did 701 substitutions.
+Reduced LP has 1003 rows, 977 columns, and 2502 nonzeros.
+Presolve time = 0.00 sec. (2.90 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =        300318.100000
+
+Dual simplex solved model.
+

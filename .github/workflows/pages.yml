@@ -32,6 +32,7 @@ jobs:
           python-version: '3.12'
       - name: Build benchmark explorer
         run: |
+          python docs/portal/campaigns/dj2000-echelon-2026-09-19/audit_final.py
           python tools/build_alignment_publication.py
           python tools/build_benchmark_portal.py
       - uses: actions/configure-pages@v5

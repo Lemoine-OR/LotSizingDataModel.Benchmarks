@@ -1,0 +1,498 @@
+{
+  "name": "LSDM_DJ2000_MLLP_12_unknown_ph1in63st3de4mh0ms1",
+  "sourceSha256": "bc1f265b3b855a7b4097a8b8ea652290f57395f777c5b14b0c57241a8c886a4e",
+  "status": "OPTIMAL_WITHIN_ABSOLUTE_GAP",
+  "absoluteGapLimit": "0.00001",
+  "objectiveExact": "22744/25",
+  "objectiveDecimal": "909.76",
+  "globalBoundReported": "909.7600000000001",
+  "signedGapExact": "-1/10000000000000",
+  "absoluteGapDecimal": "1E-13",
+  "binaryValuesExact": true,
+  "physicalBalancesExact": true,
+  "echelonBalancesExact": true,
+  "objectiveEquivalenceExact": true,
+  "proofScope": "CPLEX global bound and Optimal status on the original unfixed MIP, checked against exact recalculated final cost. Numerical optimality at absolute tolerance 1e-5; not an independently exact rational lower-bound certificate.",
+  "decisions": [
+    {
+      "item": 1,
+      "period": 1,
+      "setup": 1,
+      "production": "260",
+      "inventory": "180",
+      "echelonInventory": "180"
+    },
+    {
+      "item": 1,
+      "period": 2,
+      "setup": 0,
+      "production": "0",
+      "inventory": "80",
+      "echelonInventory": "80"
+    },
+    {
+      "item": 1,
+      "period": 3,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 1,
+      "period": 4,
+      "setup": 1,
+      "production": "485",
+      "inventory": "305",
+      "echelonInventory": "305"
+    },
+    {
+      "item": 1,
+      "period": 5,
+      "setup": 0,
+      "production": "0",
+      "inventory": "210",
+      "echelonInventory": "210"
+    },
+    {
+      "item": 1,
+      "period": 6,
+      "setup": 0,
+      "production": "0",
+      "inventory": "200",
+      "echelonInventory": "200"
+    },
+    {
+      "item": 1,
+      "period": 7,
+      "setup": 0,
+      "production": "0",
+      "inventory": "50",
+      "echelonInventory": "50"
+    },
+    {
+      "item": 1,
+      "period": 8,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 1,
+      "period": 9,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 1,
+      "period": 10,
+      "setup": 1,
+      "production": "360",
+      "inventory": "180",
+      "echelonInventory": "180"
+    },
+    {
+      "item": 1,
+      "period": 11,
+      "setup": 0,
+      "production": "0",
+      "inventory": "180",
+      "echelonInventory": "180"
+    },
+    {
+      "item": 1,
+      "period": 12,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 2,
+      "period": 1,
+      "setup": 1,
+      "production": "260",
+      "inventory": "0",
+      "echelonInventory": "180"
+    },
+    {
+      "item": 2,
+      "period": 2,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "80"
+    },
+    {
+      "item": 2,
+      "period": 3,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 2,
+      "period": 4,
+      "setup": 1,
+      "production": "485",
+      "inventory": "0",
+      "echelonInventory": "305"
+    },
+    {
+      "item": 2,
+      "period": 5,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "210"
+    },
+    {
+      "item": 2,
+      "period": 6,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "200"
+    },
+    {
+      "item": 2,
+      "period": 7,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "50"
+    },
+    {
+      "item": 2,
+      "period": 8,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 2,
+      "period": 9,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 2,
+      "period": 10,
+      "setup": 1,
+      "production": "360",
+      "inventory": "0",
+      "echelonInventory": "180"
+    },
+    {
+      "item": 2,
+      "period": 11,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "180"
+    },
+    {
+      "item": 2,
+      "period": 12,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 3,
+      "period": 1,
+      "setup": 1,
+      "production": "260",
+      "inventory": "0",
+      "echelonInventory": "180"
+    },
+    {
+      "item": 3,
+      "period": 2,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "80"
+    },
+    {
+      "item": 3,
+      "period": 3,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 3,
+      "period": 4,
+      "setup": 1,
+      "production": "485",
+      "inventory": "0",
+      "echelonInventory": "305"
+    },
+    {
+      "item": 3,
+      "period": 5,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "210"
+    },
+    {
+      "item": 3,
+      "period": 6,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "200"
+    },
+    {
+      "item": 3,
+      "period": 7,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "50"
+    },
+    {
+      "item": 3,
+      "period": 8,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 3,
+      "period": 9,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 3,
+      "period": 10,
+      "setup": 1,
+      "production": "360",
+      "inventory": "0",
+      "echelonInventory": "180"
+    },
+    {
+      "item": 3,
+      "period": 11,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "180"
+    },
+    {
+      "item": 3,
+      "period": 12,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 4,
+      "period": 1,
+      "setup": 1,
+      "production": "260",
+      "inventory": "0",
+      "echelonInventory": "180"
+    },
+    {
+      "item": 4,
+      "period": 2,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "80"
+    },
+    {
+      "item": 4,
+      "period": 3,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 4,
+      "period": 4,
+      "setup": 1,
+      "production": "485",
+      "inventory": "0",
+      "echelonInventory": "305"
+    },
+    {
+      "item": 4,
+      "period": 5,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "210"
+    },
+    {
+      "item": 4,
+      "period": 6,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "200"
+    },
+    {
+      "item": 4,
+      "period": 7,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "50"
+    },
+    {
+      "item": 4,
+      "period": 8,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 4,
+      "period": 9,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 4,
+      "period": 10,
+      "setup": 1,
+      "production": "360",
+      "inventory": "0",
+      "echelonInventory": "180"
+    },
+    {
+      "item": 4,
+      "period": 11,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "180"
+    },
+    {
+      "item": 4,
+      "period": 12,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 5,
+      "period": 1,
+      "setup": 1,
+      "production": "260",
+      "inventory": "0",
+      "echelonInventory": "180"
+    },
+    {
+      "item": 5,
+      "period": 2,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "80"
+    },
+    {
+      "item": 5,
+      "period": 3,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 5,
+      "period": 4,
+      "setup": 1,
+      "production": "485",
+      "inventory": "0",
+      "echelonInventory": "305"
+    },
+    {
+      "item": 5,
+      "period": 5,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "210"
+    },
+    {
+      "item": 5,
+      "period": 6,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "200"
+    },
+    {
+      "item": 5,
+      "period": 7,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "50"
+    },
+    {
+      "item": 5,
+      "period": 8,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 5,
+      "period": 9,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    },
+    {
+      "item": 5,
+      "period": 10,
+      "setup": 1,
+      "production": "360",
+      "inventory": "0",
+      "echelonInventory": "180"
+    },
+    {
+      "item": 5,
+      "period": 11,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "180"
+    },
+    {
+      "item": 5,
+      "period": 12,
+      "setup": 0,
+      "production": "0",
+      "inventory": "0",
+      "echelonInventory": "0"
+    }
+  ]
+}

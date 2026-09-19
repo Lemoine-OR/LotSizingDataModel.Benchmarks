@@ -1,0 +1,34 @@
+{
+  "completedAt": "2026-09-19T11:00:04.588925+02:00",
+  "instances": 136,
+  "phase1": 96,
+  "phase2": 40,
+  "finalSolutionsVerified": 136,
+  "absoluteGapLimit": "0.00001",
+  "maximumAbsoluteFinalGap": "183/50000000000",
+  "mipSeconds": 227.4011681,
+  "polishSeconds": 0.6186243,
+  "verificationSeconds": 12.610513700114097,
+  "totalComputeSeconds": 306.7574849005323,
+  "maximumInstanceSeconds": 29.183897399983834,
+  "exactBinaryChecks": true,
+  "exactMaterialBalanceChecks": true,
+  "exactOriginalXmlCostChecks": true,
+  "finalFileReopenedAndAudited": true,
+  "proofScope": "Numerical global CPLEX bound checked against exact final rational objective; absolute tolerance 1e-5, not independent exact rational bound certification.",
+  "dashboard": "https://lemoine-or.github.io/LotSizingDataModel.Benchmarks/portal/campaigns/dj2000-echelon-2026-09-19/dashboard.html",
+  "phases": [
+    {
+      "phase": 1,
+      "instances": 96,
+      "mipSeconds": 9.5087061,
+      "totalSeconds": 44.85900260042399
+    },
+    {
+      "phase": 2,
+      "instances": 40,
+      "mipSeconds": 217.892462,
+      "totalSeconds": 261.8984823001083
+    }
+  ]
+}

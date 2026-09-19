@@ -1,0 +1,83 @@
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_Emphasis_Numerical                      1
+CPXPARAM_RandomSeed                              1
+CPXPARAM_Simplex_Tolerances_Optimality           1.0000000000000001e-09
+CPXPARAM_Simplex_Tolerances_Feasibility          1.0000000000000001e-09
+CPXPARAM_MIP_Tolerances_AbsMIPGap                9.9999999999999995e-08
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+CPXPARAM_MIP_Tolerances_Integrality              0
+Found incumbent of value 213267.950000 after 0.00 sec. (0.18 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 101 rows and 100 columns.
+MIP Presolve added 2 rows and 0 columns.
+Aggregator did 176 substitutions.
+Reduced MIP has 1513 rows, 1524 columns, and 3785 nonzeros.
+Reduced MIP has 550 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (7.79 ticks)
+Probing fixed 0 vars, tightened 1 bounds.
+Probing time = 0.02 sec. (3.36 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve modified 2 coefficients.
+Reduced MIP has 1513 rows, 1524 columns, and 3785 nonzeros.
+Reduced MIP has 550 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (6.22 ticks)
+Probing time = 0.02 sec. (2.12 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.01 sec. (3.20 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       213267.9500        0.0000           100.00%
+      0     0    94364.6130   340   213267.9500    94364.6130      584   55.75%
+      0     0   129189.4589   264   213267.9500     Cuts: 478      858   39.42%
+      0     0   143599.6594   183   213267.9500     Cuts: 478     1104   32.67%
+*     0+    0                       174897.9000   143599.6594            17.90%
+      0     0   151707.9745   177   174897.9000     Cuts: 478     1370   13.26%
+      0     0   155690.8605    71   174897.9000     Cuts: 418     1520   10.98%
+*     0+    0                       158375.5500   155690.8605             1.70%
+*     0+    0                       156395.1000   155690.8605             0.45%
+      0     0   155883.9649    67   156395.1000      Cuts: 25     1537    0.33%
+Detecting symmetries...
+      0     0   155938.2000    50   156395.1000      Cuts: 17     1547    0.29%
+*     0+    0                       155938.2000   155938.2000             0.00%
+      0     0        cutoff         155938.2000   155938.2000     1547    0.00%
+Elapsed time = 0.53 sec. (189.77 ticks, tree = 0.01 MB, solutions = 5)
+
+Implied bound cuts applied:  148
+Flow cuts applied:  351
+Mixed integer rounding cuts applied:  277
+Flow path cuts applied:  109
+Gomory fractional cuts applied:  178
+
+Root node processing (before b&c):
+  Real time             =    0.53 sec. (189.93 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.53 sec. (189.93 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_Emphasis_Numerical                      1
+CPXPARAM_RandomSeed                              1
+CPXPARAM_Simplex_Tolerances_Optimality           1.0000000000000001e-09
+CPXPARAM_Simplex_Tolerances_Feasibility          1.0000000000000001e-09
+CPXPARAM_MIP_Tolerances_AbsMIPGap                9.9999999999999995e-08
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+CPXPARAM_MIP_Tolerances_Integrality              0
+Tried aggregator 1 time.
+LP Presolve eliminated 1030 rows and 1062 columns.
+Aggregator did 413 substitutions.
+Reduced LP has 345 rows, 325 columns, and 836 nonzeros.
+Presolve time = 0.00 sec. (1.35 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             5.640000
+Iteration:     3   Dual objective     =        146007.950000

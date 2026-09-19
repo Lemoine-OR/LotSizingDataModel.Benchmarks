@@ -1,0 +1,20 @@
+{
+  "name": "LSDM_DJ2000_MLLP_24_unknown_ph2in40",
+  "phase": 2,
+  "items": 40,
+  "horizon": 24,
+  "status": "OPTIMAL_WITHIN_ABSOLUTE_GAP",
+  "objective": "305010.85",
+  "bound": "305010.84999999986",
+  "absoluteGap": "1.4E-10",
+  "signedGap": "1.4E-10",
+  "boundAboveExactIncumbent": false,
+  "binariesExact": true,
+  "balancesExact": true,
+  "mipSeconds": 9.8874611,
+  "polishSeconds": 0.0128965,
+  "verificationSeconds": 0.3449652999988757,
+  "totalSeconds": 11.191565199987963,
+  "maximumProductionCorrection": "0",
+  "maximumStockDifference": "0"
+}
